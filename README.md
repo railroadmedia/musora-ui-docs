@@ -1,8 +1,10 @@
 # musora-ui-docs
 
-[https://railroadmedia.github.io/musora-ui-docs/]('https://railroadmedia.github.io/musora-ui-docs/')
-
 Musora's Components, Patterns, and Templates for creating awesome web experiences
+
+## Documentation
+
+[https://railroadmedia.github.io/musora-ui-docs/](https://railroadmedia.github.io/musora-ui-docs/)
 
 ## What's in it?
 
