@@ -1,0 +1,25 @@
+{
+  "name": "musora-ui-docs",
+  "version": "1.0.0",
+  "description": "Musora's Components, Patterns, and Templates for creating awesome web experiences",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/railroadmedia/musora-ui-docs.git"
+  },
+  "author": "Musora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/railroadmedia/musora-ui-docs/issues"
+  },
+  "homepage": "https://github.com/railroadmedia/musora-ui-docs#readme",
+  "devDependencies": {
+    "stylesora": "^1.0.7",
+    "vuepress": "^1.8.2"
+  }
+}
