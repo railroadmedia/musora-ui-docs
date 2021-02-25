@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/railroadmedia/musora-ui-docs#readme",
   "devDependencies": {
-    "stylesora": "^1.0.7",
+    "stylesora": "^1.0.8",
     "vuepress": "^1.8.2"
   }
 }

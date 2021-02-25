@@ -7306,10 +7306,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylesora@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.7.tgz#ecda10e92f1624647489b8ef4f78388d5a74dd32"
-  integrity sha512-WVXGbS4QR1wUB5w9kzf8CJBxUyWtRi241ghVJWlj6aRNcp90ns/nwCvkwUJ6s691mo7XbrwspncnJkhq5wYcpQ==
+stylesora@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.8.tgz#b106f9109d7f4796c5813d9ba8bcafe06b8d45ba"
+  integrity sha512-seI2W4TDtFl5RBockDW9HvVeItbLB/EwUDKeLO0X5oZW1ofKBujuPME3PvorqEa3bqsgsCqWt4huSx9A4OjTiA==
   dependencies:
     postcss-cli "^8.3.1"
 
