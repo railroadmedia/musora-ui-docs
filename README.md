@@ -4,7 +4,7 @@ A full description of the technologies used to build Musora's Components, Style 
 
 ## Website
 
-[https://railroadmedia.github.io/musora-ui-docs/](https://railroadmedia.github.io/musora-ui-docs/)
+[https://musora-ui-docs.netlify.app/](https://musora-ui-docs.netlify.app/)
 
 ## What's in it?
 
