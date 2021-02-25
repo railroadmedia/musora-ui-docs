@@ -7,13 +7,12 @@
 #### In webpack.mix.js add the following:
 
 ```js
-mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/assets/css/stylesora')
-   .purgeCss({
-        folders: ['resources', 'vendor/railroad', 'node_modules/vuesora'],
-        whitelistPatterns: [/guitareo/, /semester-pack/, /mce-/, /noty_/, /no-scroll/, /hide-/, /intercom-/, /flatpickr-/,
-            /cropper/, /stripe-element-container/, /StripeElement/, /icon-/, /numInput/, /flatpickr/, /cur-year/,
-            /numInput-/, /arrowUp/, /arrowDown/]
-    });
+mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/stylesora').purgeCss({
+    folders: ['resources', 'vendor/railroad', 'node_modules/vuesora'],
+    whitelistPatterns: [/guitareo/, /semester-pack/, /mce-/, /noty_/, /no-scroll/, /hide-/, /intercom-/, /flatpickr-/,
+        /cropper/, /stripe-element-container/, /StripeElement/, /icon-/, /numInput/, /flatpickr/, /cur-year/,
+        /numInput-/, /arrowUp/, /arrowDown/]
+});
 ```
 
 #### Compile Assets
@@ -23,7 +22,7 @@ mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/assets/css/styl
 
 #### Include Stylesora in Template
 ```html
-<link href="{{ asset('assets/css/stylesora/stylesora.css') }}" rel="stylesheet">
+<link href="{{ asset('/stylesora/stylesora.css') }}" rel="stylesheet">
 ```
 <br>
 <hr>

@@ -1,4 +1,4 @@
-# Introduction
+# Stylesora
 
 Stylesora is frontend pattern library created to help you build Musora's websites and web applications with ease.
 Stylesora is built on [tailwind.css](https://tailwindcss.com/docs) for styling and [alpine.js](https://github.com/alpinejs/alpine/) for simple DOM manipulation.  
