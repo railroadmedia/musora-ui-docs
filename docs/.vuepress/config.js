@@ -1,7 +1,7 @@
 module.exports = {
     base: '/',
     title: 'Musora UI',
-    description: 'A CSS package for styling Musora\'s websites and web applications with ease. Includes Tailwind CSS as well as custom patterns for rapid prototyping and development.',
+    description: 'Documentation on Musora\'s Components, Patterns, and Templates for creating awesome web experiences.',
     evergreen: true,
     themeConfig: {
         logo: '/img/logo-color.svg',

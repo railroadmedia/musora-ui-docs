@@ -4,7 +4,10 @@
 
 `npm i stylesora --save`
 
-#### In webpack.mix.js add the following:
+<br><hr>
+
+#### Configuration
+##### In webpack.mix.js add the following:
 
 ```js
 mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/stylesora').purgeCss({
@@ -14,25 +17,20 @@ mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/stylesora').pur
         /numInput-/, /arrowUp/, /arrowDown/]
 });
 ```
+##### Include Stylesora in Template
 
-#### Compile Assets
-<br>
-
-`npm run dev`
-
-#### Include Stylesora in Template
 ```html
+<!-- Include in head -->
 <link href="{{ asset('/stylesora/stylesora.css') }}" rel="stylesheet">
 ```
-<br>
-<hr>
 
+<br><hr>
 #### Library Commands
-#### Compile and watch for Development
+##### Compile and watch for Development
 <br>
 
 `yarn lib:watch`
-#### Build for Production
+##### Build for Production
 <br>
 
 `yarn lib:build`
@@ -40,23 +38,14 @@ mix.postCss('node_modules/stylesora/dist/stylesora.css', 'public/stylesora').pur
 <br>
 <hr>
 
-#### Documentation
-#### Compile and watch Docs
-<br>
-
-`yarn docs:watch`
-#### Build Docs
-<br>
-
-`yarn docs:build`
-
-<br>
-<hr>
-
 #### Developing in other Environments
-#### Run Symlink Command
+##### Run Symlink Command
 <br>
 
 `./link-stylesora.sh`
 
+<br>
 
+:::tip Linking Environments
+The sym-link script allows you to choose from the three major environments (Drumeo, Guitareo, Pianote) as well as the Musora UI Docs.
+:::
