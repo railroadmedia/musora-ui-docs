@@ -8,9 +8,9 @@ Themes are applied to frontend elements and components with the use of our Tailw
 
 #### Themes and Components
 <br>
-A good pattern for applying a theme to a component is with the use of the 'tw-currentColor' class name. You can add the theme class to the parent
+
+A good pattern for applying a theme to a component is with the use of the `tw-currentColor` class name. You can add the theme class to the parent
 element and have each child inherit those styles. 
-<br>
 <br>
 <br>
 
@@ -43,28 +43,34 @@ element and have each child inherit those styles.
 </button>
 ```
 
+<br><hr>
+
 #### Themes and SVG
 <br>
 While it does add markup to your html document, using inline or 'raw' SVG images have many benefits. For example, when using currentColor as a fill
 value, your SVG can also inherit the color it's parent. This also creates an oportunity when working with Sprite Sheets or using an SVG component in
 Vue.js. Here's a simple example of theming with SVG's. 
 <br>
+
+##### Example
 <br>
 
-```html
+Coming soon...
 
-```
+<br><hr>
 
 #### Using Colors as Themes
 <br>
 You can use Tailwind's color classes the same way we would use Styelsora's theme classes. The currentColor setting will inherit the text color of it's
 parent, here's an example. 
 <br>
+
+##### Example
 <br>
 
-```html
+Coming soon...
 
-```
+<br><hr>
 
 #### Adding Themes
 <br>

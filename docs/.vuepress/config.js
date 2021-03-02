@@ -35,7 +35,6 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 0,
                     children: [
-                        ['/stylesora/themes/', 'Overview'],
                         '/stylesora/themes/logos',
                         '/stylesora/themes/colors',
                     ]
@@ -45,9 +44,15 @@ module.exports = {
                     path: '/stylesora/base/',
                     collapsable: false,
                     sidebarDepth: 0,
+                },
+                {
+                    title: 'Content',
+                    path: '/stylesora/content/',
+                    collapsable: false,
+                    sidebarDepth: 0,
                     children: [
-                        ['/stylesora/base/', 'Overview'],
-                        '/stylesora/base/site'
+                        '/stylesora/content/typography',
+                        '/stylesora/content/site'
                     ]
                 },
                 {
@@ -56,7 +61,6 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 0,
                     children: [
-                        ['/stylesora/utilities/', 'Overview'],
                         '/stylesora/utilities/extensions',
                     ]
                 },
@@ -66,7 +70,6 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 0,
                     children: [
-                        ['/stylesora/layout/', 'Overview'],
                         '/stylesora/layout/containers',
                         '/stylesora/layout/grid',
                         '/stylesora/layout/navigation'
@@ -78,7 +81,6 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 0,
                     children: [
-                        ['/stylesora/components/', 'Overview'],
                         ['/stylesora/components/icons', 'Icons'],
                         '/stylesora/components/buttons',
                         '/stylesora/components/forms',
@@ -96,18 +98,12 @@ module.exports = {
                     path: '/stylesora/modules/',
                     collapsable: false,
                     sidebarDepth: 0,
-                    children: [
-                        ['/stylesora/modules/', 'Overview']
-                    ]
                 },
                 {
                     title: 'Templates',
                     path: '/stylesora/templates/',
                     collapsable: false,
                     sidebarDepth: 0,
-                    children: [
-                        ['/stylesora/templates/', 'Overview']
-                    ]
                 }
             ],
             //fallback

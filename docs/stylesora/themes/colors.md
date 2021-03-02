@@ -98,6 +98,8 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <h4>Gray Variations</h4>
         <br/>
+        <p>While Tailwind.css provides gray color variants, Stylesora includes it's own set of <i>warm</i> gray variants to match Musora's color palette.</p>
+        <br>
         <div class="tw-flex tw-flex-wrap">
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
                 <div class="tw-p-12 tw-bg-white tw-border-gray-100 tw-border"></div>
@@ -108,51 +110,51 @@ background colors, text colors, border colors and gradients. You can search the 
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-100"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #1</p>
-                    <p class="tw-text-xs tw-m-0">#07A0FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#EFF0F0</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-100</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-200"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-200"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #2</p>
-                    <p class="tw-text-xs tw-m-0">#0BBE76</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#E5E6E8</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-200</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-300"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #3</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#CCD0D3</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-300</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-400"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-500"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #4</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#9EA1A6</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-500</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-500"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-700"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #5</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#4D5356</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-700</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-600"></div>
+                <div class="tw-p-12 tw-bg-warm-gray-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #6</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-</p>
+                    <p class="tw-text-xs tw-m-0">#191B1C</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-warm-gray-900</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
@@ -169,48 +171,54 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <div class="tw-flex tw-flex-wrap">
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-white tw-border-gray-100 tw-border"></div>
+                <div class="tw-p-12 tw-bg-mild-blue tw-border-gray-100 tw-border"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">White</p>
-                    <p class="tw-text-xs tw-m-0">#FFFFFF</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Mild Blue</p>
+                    <p class="tw-text-xs tw-m-0">#7E9AB1</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-mild-blue</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-100"></div>
+                <div class="tw-p-12 tw-bg-gray-blue"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #1</p>
-                    <p class="tw-text-xs tw-m-0">#07A0FF</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray/Blue</p>
+                    <p class="tw-text-xs tw-m-0">#445F74</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-gray-blue</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-200"></div>
+                <div class="tw-p-12 tw-bg-royal-blue"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #2</p>
-                    <p class="tw-text-xs tw-m-0">#0BBE76</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Royal Blue</p>
+                    <p class="tw-text-xs tw-m-0">#002039</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-royal-blue</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-300"></div>
+                <div class="tw-p-12 tw-bg-dark-blue-1"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #3</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #1</p>
+                    <p class="tw-text-xs tw-m-0">#081825</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-1</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-400"></div>
+                <div class="tw-p-12 tw-bg-dark-blue-2"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #4</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #2</p>
+                    <p class="tw-text-xs tw-m-0">#00101D</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-2</p>
                 </div>
             </div>
             <div class="tw-w-1/5 tw-mb-4 tw-mr-4">
-                <div class="tw-p-12 tw-bg-gray-500"></div>
+                <div class="tw-p-12 tw-bg-dark-blue-3"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #5</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #3</p>
+                    <p class="tw-text-xs tw-m-0">#010611</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-3</p>
                 </div>
             </div>
-        </div>
+        </div>             
         <br>
         <h4>UI Colors</h4>
         <br/>

@@ -3,6 +3,7 @@
 Stylesora is frontend pattern library created to help you build Musora's websites and web applications with ease.
 Stylesora is built on [tailwind.css](https://tailwindcss.com/docs) for styling and [alpine.js](https://github.com/alpinejs/alpine/) for simple DOM manipulation.  
 
+<br><hr>
 #### Extending Tailwind
 <br>
 
@@ -20,7 +21,7 @@ The `@apply` directive allow us to add tailwind styles to a new class or compone
     }
 }
 ```
-
+<br><hr>
 #### In The Wild
 <br>
 
@@ -35,6 +36,26 @@ Musora sites use css from many different sources. To avoid overriding any other 
 <!-- Stylesora prefixed class names (this works!) -->
 <p class="tw-text-red-500 tw-bg-blue-100 tw-p-2">This is an example paragraph with red text and a blue background</p>
 ```
+
+<br><hr>
+
+#### Adding Functionality 
+<br>
+
+While most of Stylesora can be used as a CSS pattern library, there will be times when JS functionality is helpful. Stylesora provides this functionality with the use of Alpine.js. 
+
+##### Examples
+<br>
+
+Coming Soon...
+
+<br>
+
+:::warning Note
+In the documentation, we've included a 'Requires JS' badge wherever Javascript is necessary.
+:::
+<br><hr>
+
 #### Contributing
 <br>
 
