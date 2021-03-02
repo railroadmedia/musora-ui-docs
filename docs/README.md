@@ -7,8 +7,8 @@ home: true
     <div class="tw-w-10/12 tw-mx-auto tw-text-center md:tw-text-left md:tw-w-1/2 tw-text-white">
       <h1 class="md:tw-text-4xl tw-mb-6 tw-text-3xl">Components, Patterns, and Templates for creating awesome web experiences. </h1>
       <h3 class="tw-mb-8 tw-font-semibold">Musora UI is comprised of three separate libraries to help add style, strucure and functionality to our websites and web-applications</h3>
-      <a href="#features" class="tw-btn-secondary tw-text-white hover:tw-bg-transparent">
-        <span class="tw-text-white">Explore Features</span>
+      <a href="#features" class="tw-btn-tertiary hover:tw-text-drumeo">
+        <span class="">Explore Features</span>
       </a>
     </div>
     <div class="tw-w-1/4 md:tw-w-1/2 tw-mx-auto md:tw-pl-12 lg:tw-pl-24 tw-mb-12">
