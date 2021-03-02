@@ -12,14 +12,14 @@ module.exports = {
                 link: '/stylesora/'
             },
             {
-                text: 'Bladesora',
-                link: '/bladesora/'
-                // link: 'https://github.com/railroadmedia/bladesora'
-            },
-            {
                 text: 'Vuesora',
                 link: '/vuesora/'
                 // link: 'https://railroadmedia.github.io/vuesora/'
+            },
+            {
+                text: 'Bladesora',
+                link: '/bladesora/'
+                // link: 'https://github.com/railroadmedia/bladesora'
             },
         ],
         sidebar: {
