@@ -35,8 +35,8 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-p-12 tw-bg-guitareo"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Guitareo</p>
-                    <p class="tw-text-xs tw-m-0">(255,174,0)</p>
                     <p class="tw-text-xs tw-m-0">#00C9AC</p>
+                    <p class="tw-text-xs tw-m-0">(255,174,0)</p>
                     <p class="tw-text-xs tw-m-0">tw-bg-guitareo</p>
                 </div>
             </div>

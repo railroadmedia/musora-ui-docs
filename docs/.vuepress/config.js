@@ -12,12 +12,14 @@ module.exports = {
                 link: '/stylesora/'
             },
             {
-                text: 'Vuesora',
-                link: 'https://railroadmedia.github.io/vuesora/'
+                text: 'Bladesora',
+                link: '/bladesora/'
+                // link: 'https://github.com/railroadmedia/bladesora'
             },
             {
-                text: 'Bladesora',
-                link: 'https://github.com/railroadmedia/bladesora'
+                text: 'Vuesora',
+                link: '/vuesora/'
+                // link: 'https://railroadmedia.github.io/vuesora/'
             },
         ],
         sidebar: {
@@ -105,6 +107,24 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 0,
                 }
+            ],
+            '/vuesora/': [
+                '',
+                {
+                    title: 'Getting Started',
+                    path: '/vuesora/usage/',
+                    collapsable: false,
+                    sidebarDepth: -1,
+                },
+            ],
+            '/bladesora/': [
+                '',
+                {
+                    title: 'Getting Started',
+                    path: '/bladesora/usage/',
+                    collapsable: false,
+                    sidebarDepth: -1,
+                },
             ],
             //fallback
             '/': [

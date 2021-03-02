@@ -139,3 +139,17 @@ main.home {
     max-width: 100%;    
     padding: 0;
 }
+
+@media (min-width: 719px) {
+    .nav-item:nth-child(2) > a:not(.external):hover, 
+    .nav-item:nth-child(2)  > a:not(.external).router-link-active {
+        margin-bottom: -2px;
+        border-bottom: 2px solid #F61A30;
+    }
+    .nav-item:nth-child(3) > a:not(.external):hover, 
+    .nav-item:nth-child(3)  > a:not(.external).router-link-active {
+        margin-bottom: -2px;
+        border-bottom: 2px solid #00C9AC;
+    }
+}
+
