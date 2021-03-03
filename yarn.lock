@@ -8072,10 +8072,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylesora@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.11.tgz#9b8ee6b951933aae7025e3068c72690ed513ffb6"
-  integrity sha512-PxLO2BWWvH4ttcscQtJuOvw+6vFkd4y/cdXqWTlteHuE+/0MpsiS1mjhi2Frl/isEfgAUu4SN3/aEoszuQt/aA==
+stylesora@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.12.tgz#46f34fdd4313f6ba7bd4574e0024c7c4f6d55abd"
+  integrity sha512-462KyhRlAssUKGdC6+3BH6OmNDUoyt4nd6Ozeb0Kf3+yn4udRaznMoOq2tudm57SpIVleD96kpruy864qcfR5Q==
   dependencies:
     postcss-cli "^8.3.1"
 

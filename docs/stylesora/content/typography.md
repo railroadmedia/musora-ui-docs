@@ -78,7 +78,7 @@ The letter-spacing and size may be adjusted to match the design.
 #### Usage
 <br>
 <div class="tw-p-4 tw-bg-gray-100">
-    <div class="tw-font-bison-bold tw-uppercase">
+    <div class="tw-uppercase" style="font-family: 'Bison Bold' ">
         <h3 class="tw-pb-1 tw-font-normal">Bison Bold is used for the Guitar Quest Experience.</h3>
     </div>
 </div>
