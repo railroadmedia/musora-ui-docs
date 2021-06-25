@@ -3,6 +3,12 @@ module.exports = {
     title: 'Musora UI',
     description: 'Documentation on Musora\'s Components, Patterns, and Templates for creating awesome web experiences.',
     evergreen: true,
+    postcss: {
+        plugins: [
+            require("tailwindcss")("./tailwind.config.js"), 
+            require('autoprefixer')
+        ],
+    },
     themeConfig: {
         logo: '/img/logo-color.svg',
         displayAllHeaders: true,

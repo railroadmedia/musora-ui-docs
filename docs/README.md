@@ -33,7 +33,7 @@ home: true
       <h2 class="tw-border-none">Stylesora</h2>
       <h4 class="tw-mb-6 tw-text-lg tw-text-drumeo">CSS Pattern Library</h4>
       <p class="tw-mb-8 tw-text-gray-700">A collection of UI patterns for styling Musora's pages and adding functionality with ease.
-        Built with Tailwind CSS and Alpine JS, it extends these libraries to provide what you need to build
+        Built as <a href="https://tailwindcss.com/docs/plugins">Tailwind plugins</a>, it extends the Tailwind library to provide what you need to build
         awesome Musora sites and apps.
       </p>
       <a href="/stylesora/" class="tw-btn-primary tw-bg-drumeo">
