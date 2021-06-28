@@ -8328,10 +8328,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylesora@^1.0.30:
-  version "1.0.30"
-  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.30.tgz#7600bcd681db577f1ede1eed3037bfef5d1f9c94"
-  integrity sha512-+CRQRDt3jMtbmbGQKVeyajYBiXn8HrrYep0qi8LtxZ8Y6oE5ubSqurh4MTHU5ecQO8RiIOoDHNd3ZH0m2GuDjw==
+stylesora@^1.0.32:
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.32.tgz#827109198d8af26f973f1f22972e576e7113d2db"
+  integrity sha512-L6veejisezm0cP5QqmEervbhEZMzoN8shAMGzP585BcZY43fhSb8/pyQq1zgWKe6Jc9Vlf5j7iwCt0SNOmLvnA==
 
 stylus-loader@^3.0.2:
   version "3.0.2"
