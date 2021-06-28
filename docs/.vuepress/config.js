@@ -9,6 +9,9 @@ module.exports = {
             require('autoprefixer')
         ],
     },
+    head: [
+        ['script', { src: 'https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js', defer: true }]
+    ],
     themeConfig: {
         logo: '/img/logo-color.svg',
         displayAllHeaders: true,

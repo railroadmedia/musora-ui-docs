@@ -12,7 +12,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
                     class="tw-uppercase tw-font-roboto-condensed tw-border-transparent tw-text-gray-400 hover:tw-no-underline tw-whitespace-nowrap tw-py-4 tw-px-1 tw-text-sm tw-font-bold hover:tw-text-drumeo tw-mr-2"
                     x-on:click.prevent="selected = 'option-1'"
                     x-bind:class="{ 'tw-text-drumeo tw-border-drumeo': selected === 'option-1' }"
-                    aria-current="page">
+                    aria-current="page"
+                >
                 Drumeo
                 </a>
                 <a  href="#option-2" 
@@ -25,7 +26,19 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
                     class="tw-uppercase tw-font-roboto-condensed tw-border-transparent tw-text-gray-400 hover:tw-no-underline tw-whitespace-nowrap tw-py-4 tw-px-1 tw-text-sm tw-font-bold hover:tw-text-guitareo tw-mr-2"
                     x-on:click.prevent="selected = 'option-3'"
                     x-bind:class="{ 'tw-text-guitareo tw-border-guitareo': selected === 'option-3' }">
-                Guitareo
+                    Guitareo
+                </a>
+                <a  href="#option-4" 
+                    class="tw-uppercase tw-font-roboto-condensed tw-border-transparent tw-text-gray-400 hover:tw-no-underline tw-whitespace-nowrap tw-py-4 tw-px-1 tw-text-sm tw-font-bold hover:tw-text-singeo tw-mr-2"
+                    x-on:click.prevent="selected = 'option-4'"
+                    x-bind:class="{ 'tw-text-singeo tw-border-singeo': selected === 'option-4' }">
+                    Singeo
+                </a>
+                <a  href="#option-5" 
+                    class="tw-uppercase tw-font-roboto-condensed tw-border-transparent tw-text-gray-400 hover:tw-no-underline tw-whitespace-nowrap tw-py-4 tw-px-1 tw-text-sm tw-font-bold hover:tw-text-recordeo tw-mr-2"
+                    x-on:click.prevent="selected = 'option-5'"
+                    x-bind:class="{ 'tw-text-recordeo tw-border-recordeo': selected === 'option-5' }">
+                    Recordeo
                 </a>
             </nav>
         </div>
@@ -55,7 +68,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>Drumeo Blue</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 11, 118, 219<br>
                     HEX: #0B76DB<br>
                     CSS: tw-text-drumeo
@@ -69,7 +82,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>White</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 255, 255, 255<br>
                     HEX: #FFFFFF<br>
                     CSS: tw-text-white
@@ -83,7 +96,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>Black</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 0, 0, 0<br>
                     HEX: #000000<br>
                     CSS: tw-text-black
@@ -105,8 +118,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <!-- Variants -->
         <h4>Logo on Color</h4>
         <br>
-        <p>Drumeo Blue, White, and Black are acceptable colors for the Drumeo logo. Drumeo Blue should be used whenever possible wheter in the
-        background or as the logo color. In certain situations the Drumeo logo can also be used on a different colored background or over a photo. 
+        <p>Pianote Red, White, and Black are acceptable colors for the Pianote logo. Pianote Red should be used whenever possible wheter in the
+        background or as the logo color. In certain situations the Pianote logo can also be used on a different colored background or over a photo. 
         </p>
         <br/>
         <!-- Color -->
@@ -116,7 +129,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>Pianote Red</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 11, 118, 219<br>
                     HEX: #F61A30<br>
                     CSS: tw-text-pianote
@@ -130,7 +143,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>White</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 255, 255, 255<br>
                     HEX: #FFFFFF<br>
                     CSS: tw-text-white
@@ -144,7 +157,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>Black</h4>
-                <p>
+                <p class="tw-text-sm">
                     RGB: 0, 0, 0<br>
                     HEX: #000000<br>
                     CSS: tw-text-black
@@ -166,8 +179,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <!-- Variants -->
         <h4>Logo on Color</h4>
         <br>
-        <p>Drumeo Blue, White, and Black are acceptable colors for the Drumeo logo. Drumeo Blue should be used whenever possible wheter in the
-        background or as the logo color. In certain situations the Drumeo logo can also be used on a different colored background or over a photo. 
+        <p>Guitareo Green, White, and Black are acceptable colors for the Guitareo logo. Guitareo Green should be used whenever possible wheter in the
+        background or as the logo color. In certain situations the Guitareo logo can also be used on a different colored background or over a photo. 
         </p>
         <br/>
         <!-- Color -->
@@ -206,6 +219,128 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
                 <h4>Black</h4>
                 <p>
+                    RGB: 0, 0, 0<br>
+                    HEX: #000000<br>
+                    CSS: tw-text-black
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Singeo -->
+    <div x-show="selected === 'option-4'" class="tw-py-8">
+        <h4>Brand Signature</h4>
+        <br/>
+        <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
+        <!-- Logo -->
+        <div class="tw-bg-singeo tw-p-20 tw-m-12">
+            <div class="tw-text-white tw-w-44 tw-mx-auto">
+                <img class="tw-w-full" src="https://musora-ui.s3.amazonaws.com/logos/singeo-white.svg" title="Singeo Logo">
+            </div>
+        </div>
+        <!-- Variants -->
+        <h4>Logo on Color</h4>
+        <br>
+        <p>Singeo Purple, White, and Black are acceptable colors for the Singeo logo. Singeo Purple should be used whenever possible wheter in the
+        background or as the logo color. In certain situations the Singeo logo can also be used on a different colored background or over a photo. 
+        </p>
+        <br/>
+        <!-- Color -->
+        <div class="tw-flex tw-mb-8 tw-w-full">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+                <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo.svg" title="Singeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>Singeo Purple</h4>
+                <p class="tw-text-sm">
+                    RGB: 0, 201, 172<br>
+                    HEX: #00C9AC<br>
+                    CSS: tw-text-singeo
+                </p>
+            </div>
+        </div>
+        <!-- White -->
+        <div class="tw-flex tw-mb-8">
+            <div class="tw-bg-singeo tw-p-12 tw-w-1/2">
+                <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo-white.svg" title="Singeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>White</h4>
+                <p class="tw-text-sm">
+                    RGB: 255, 255, 255<br>
+                    HEX: #FFFFFF<br>
+                    CSS: tw-text-white
+                </p>
+            </div>
+        </div>
+        <!-- Black -->
+        <div class="tw-flex">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+                <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo-black.svg" title="Singeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>Black</h4>
+                <p class="tw-text-sm">
+                    RGB: 0, 0, 0<br>
+                    HEX: #000000<br>
+                    CSS: tw-text-black
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Recordeo -->
+    <div x-show="selected === 'option-5'" class="tw-py-8">
+        <h4>Brand Signature</h4>
+        <br/>
+        <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
+        <!-- Logo -->
+        <div class="tw-bg-recordeo tw-p-20 tw-m-12">
+            <div class="tw-text-white tw-w-52 tw-mx-auto">
+                <img class="tw-w-full" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-white.svg" title="recordeo Logo">
+            </div>
+        </div>
+        <!-- Variants -->
+        <h4>Logo on Color</h4>
+        <br>
+        <p>Recordeo Yellow, White, and Black are acceptable colors for the Recordeo logo. Recordeo Yellow should be used whenever possible wheter in the
+        background or as the logo color. In certain situations the Recordeo logo can also be used on a different colored background or over a photo. 
+        </p>
+        <br/>
+        <!-- Color -->
+        <div class="tw-flex tw-mb-8 tw-w-full">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+                <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo.svg" title="recordeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>Recordeo Purple</h4>
+                <p class="tw-text-sm">
+                    RGB: 0, 201, 172<br>
+                    HEX: #00C9AC<br>
+                    CSS: tw-text-recordeo
+                </p>
+            </div>
+        </div>
+        <!-- White -->
+        <div class="tw-flex tw-mb-8">
+            <div class="tw-bg-recordeo tw-p-12 tw-w-1/2">
+                <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-white.svg" title="recordeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>White</h4>
+                <p class="tw-text-sm">
+                    RGB: 255, 255, 255<br>
+                    HEX: #FFFFFF<br>
+                    CSS: tw-text-white
+                </p>
+            </div>
+        </div>
+        <!-- Black -->
+        <div class="tw-flex">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+                <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-black.svg" title="recordeo Logo">
+            </div>
+            <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
+                <h4>Black</h4>
+                <p class="tw-text-sm">
                     RGB: 0, 0, 0<br>
                     HEX: #000000<br>
                     CSS: tw-text-black
