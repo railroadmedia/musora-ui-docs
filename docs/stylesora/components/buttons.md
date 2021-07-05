@@ -121,62 +121,6 @@ Secondary buttons are customized by adding text color classes prefixed with `tw-
     <span>Disabled</span>
 </a>
 ```
-<hr>
-
-#### Tertiary Buttons
-<br>
-
-Tertiary buttons are customized by adding text color classes prefixed with `hover:tw-text-`. Tertiary buttons all appear the same until you hover over them. 
-##### Example 
-<br>
-
-<div class="tw-bg-gray-800 tw-p-3 tw-rounded-md">
-    <a href="#" class="tw-btn-tertiary hover:tw-text-drumeo">
-        <span>Drumeo</span>
-    </a>
-    <a href="#" class="tw-btn-tertiary hover:tw-text-pianote">
-        <span>
-            Icon Right
-            <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
-        </span>
-    </a>
-    <a href="#" class="tw-btn-tertiary hover:tw-text-guitareo">
-        <span>
-            <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-            Icon Left
-        </span>
-    </a>
-    <a href="#" class="tw-btn-tertiary hover:tw-text-singeo tw-px-4">
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </a>
-    <a href="#" class="tw-btn-tertiary" disabled>
-        <span>Disabled</span>
-    </a>
-</div>
-
-```html
-<a href="#" class="tw-btn-tertiary hover:tw-text-drumeo">
-    <span>Drumeo</span>
-</a>
-<a href="#" class="tw-btn-tertiary hover:tw-text-pianote">
-    <span>
-        Icon Right
-        <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
-    </span>
-</a>
-<a href="#" class="tw-btn-tertiary hover:tw-text-guitareo">
-    <span>
-        <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-        Icon Left
-    </span>
-</a>
-<a href="#" class="tw-btn-tertiary hover:tw-text-singeo tw-px-4">
-    <i class="fa fa-star" aria-hidden="true"></i>
-</a>
-<a href="#" class="tw-btn-tertiary" disabled>
-    <span>Disabled</span>
-</a>
-```
 
 <hr>
 
@@ -189,31 +133,6 @@ The `tw-btn-small` decreases height and font-size of buttons.
 
 <br>
 
-<div class="tw-bg-gray-800 tw-p-3 tw-rounded-md">
-    <a href="#" class="tw-btn-primary tw-btn-small tw-bg-drumeo">
-        <span>Drumeo</span>
-    </a>
-    <a href="#" class="tw-btn-tertiary tw-btn-small hover:tw-text-guitareo">
-        <span>
-            Icon Right
-            <i class="fa fa-pencil tw-pl-2" aria-hidden="true"></i> 
-        </span>
-    </a>
-    <a href="#" class="tw-btn-secondary tw-btn-small tw-text-pianote">
-        <span>
-            <i class="fa fa-bell tw-pr-2" aria-hidden="true"></i>
-            Icon Left
-        </span>
-    </a>
-    <a href="#" class="tw-btn-primary tw-btn-small tw-px-2 tw-bg-recordeo">
-        <i class="fa fa-star tw-text-red-500" aria-hidden="true"></i> 
-    </a>
-    <a href="#" class="tw-btn-primary tw-btn-small" disabled>
-        <span>Disabled</span>
-    </a>
-</div>
-
-```html
 <a href="#" class="tw-btn-primary tw-btn-small tw-bg-drumeo">
     <span>Drumeo</span>
 </a>
@@ -223,10 +142,21 @@ The `tw-btn-small` decreases height and font-size of buttons.
         Icon Left
     </span>
 </a>
-<a href="#" class="tw-btn-tertiary tw-btn-small hover:tw-text-guitareo">
+<a href="#" class="tw-btn-primary tw-btn-small tw-px-2 tw-bg-recordeo">
+    <i class="fa fa-star tw-text-red-500" aria-hidden="true"></i> 
+</a>
+<a href="#" class="tw-btn-primary tw-btn-small" disabled>
+    <span>Disabled</span>
+</a>
+
+```html
+<a href="#" class="tw-btn-primary tw-btn-small tw-bg-drumeo">
+    <span>Drumeo</span>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-text-pianote">
     <span>
-        Icon Right
-        <i class="fa fa-pencil tw-pl-2" aria-hidden="true"></i> 
+        <i class="fa fa-bell tw-pr-2" aria-hidden="true"></i>
+        Icon Left
     </span>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small tw-px-2 tw-bg-recordeo">
@@ -244,20 +174,18 @@ While it's almost possible to get a circular button by adjusting padding values 
 
 <br>
 
-<div class="tw-bg-gray-800 tw-p-3 tw-rounded-md">
-    <a href="#" class="tw-btn-primary tw-btn-circle tw-bg-drumeo">
-        <i class="fa fa-database" aria-hidden="true"></i>
-    </a>
-    <a href="#" class="tw-btn-secondary tw-btn-circle tw-text-pianote">
-        <i class="fa fa-bell" aria-hidden="true"></i>
-    </a>
-    <a href="#" class="tw-btn-tertiary tw-btn-small tw-btn-circle hover:tw-text-guitareo">
-        <i class="fa fa-star" aria-hidden="true"></i> 
-    </a>
-    <a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle" disabled>
-        <i class="fa fa-pencil" aria-hidden="true"></i> 
-    </a>
-</div>
+<a href="#" class="tw-btn-primary tw-btn-circle tw-bg-drumeo">
+    <i class="fa fa-database" aria-hidden="true"></i>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-circle tw-text-pianote">
+    <i class="fa fa-bell" aria-hidden="true"></i>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-singeo">
+    <i class="fa fa-check" aria-hidden="true"></i>
+</a>
+<a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle" disabled>
+    <i class="fa fa-pencil" aria-hidden="true"></i> 
+</a>
 
 ```html
 <a href="#" class="tw-btn-primary tw-btn-circle tw-bg-drumeo">
@@ -266,8 +194,8 @@ While it's almost possible to get a circular button by adjusting padding values 
 <a href="#" class="tw-btn-secondary tw-btn-circle tw-text-pianote">
     <i class="fa fa-bell" aria-hidden="true"></i>
 </a>
-<a href="#" class="tw-btn-tertiary tw-btn-small tw-btn-circle hover:tw-text-guitareo">
-    <i class="fa fa-star" aria-hidden="true"></i> 
+<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-singeo">
+    <i class="fa fa-check" aria-hidden="true"></i>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle" disabled>
     <i class="fa fa-pencil" aria-hidden="true"></i> 

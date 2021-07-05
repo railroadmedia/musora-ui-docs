@@ -98,6 +98,10 @@ The letter-spacing and size may be adjusted to match the design.
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+    <h2 class="tw-leading-none tw-text-32">Musora Heading</h2>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-32</div>
+</div>
+<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
     <h2 class="tw-leading-none">Heading Two</h2>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl</div>
 </div>
@@ -124,6 +128,10 @@ The letter-spacing and size may be adjusted to match the design.
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
     <p class="tw-leading-none tw-text-sm">Paragraph Small</p>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm</div>
+</div>
+<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+    <p class="tw-leading-none tw-text-13">Musora Site Content</p>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-13</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
     <p class="tw-leading-none tw-text-xs">Paragraph Extra Small</p>

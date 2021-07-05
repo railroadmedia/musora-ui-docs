@@ -38,5 +38,6 @@ module.exports = {
   },
   plugins: [
     require('stylesora/components/')(),
+    require('stylesora/utilities/')(),
   ],
 }
