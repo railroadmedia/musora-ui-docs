@@ -53,33 +53,41 @@ background colors, text colors, border colors and gradients. You can search the 
                     <p class="tw-text-xs tw-m-0">tw-bg-recordeo</p>
                 </div>
             </div>
-            <div>
-                <div class="tw-p-12 tw-bg-guitareo-lessons"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Guitar Lessons</p>
-                    <p class="tw-text-xs tw-m-0">#FFAC00</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-lessons</p>
-                </div>
-            </div>
         </div>
         <br>
         <h4>Drumeo</h4>
         <br/>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-darkest"></div>
+                <div class="tw-p-12 tw-bg-drumeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Black</p>
                     <p class="tw-text-xs tw-m-0">#13171B</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-900</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-dark"></div>
+                <div class="tw-p-12 tw-bg-drumeo-800"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0">#112E4A</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-800</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-drumeo-700"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darker</p>
+                    <p class="tw-text-xs tw-m-0">#074783</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-700</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-drumeo-600"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark</p>
-                    <p class="tw-text-xs tw-m-0">#112E4A</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">#095EAF</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-600</p>
                 </div>
             </div>
             <div>
@@ -87,39 +95,47 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">DEFAULT</p>
                     <p class="tw-text-xs tw-m-0">#0B76DB</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-hover"></div>
+                <div class="tw-p-12 tw-bg-drumeo-400"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Hover</p>
-                    <p class="tw-text-xs tw-m-0">#258FF4</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">(Hover)</p>
+                    <p class="tw-text-xs tw-m-0">#3C91E2</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-400</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-light"></div>
+                <div class="tw-p-12 tw-bg-drumeo-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Light</p>
-                    <p class="tw-text-xs tw-m-0">#B2D4F4</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#6DADE9</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-300</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-lightest"></div>
+                <div class="tw-p-12 tw-bg-drumeo-200"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lighter</p>
+                    <p class="tw-text-xs tw-m-0">#B2D4F4</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-200</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-drumeo-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Lightest</p>
-                    <p class="tw-text-xs tw-m-0">#EAF5FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#E7F1FB</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-100</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-drumeo-gray"></div>
+                <div class="tw-p-12 tw-bg-drumeo-50"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray</p>
                     <p class="tw-text-xs tw-m-0">#F3F4F5</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-drumeo-50</p>
                 </div>
             </div>
         </div>
@@ -128,59 +144,83 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-pianote-darkest"></div>
+                <div class="tw-p-12 tw-bg-pianote-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
-                    <p class="tw-text-xs tw-m-0">#F71B26</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Black</p>
+                    <p class="tw-text-xs tw-m-0">#201617</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-900</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-pianote-dark"></div>
+                <div class="tw-p-12 tw-bg-pianote-800"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0">#55171D</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-800</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-pianote-700"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darker</p>
+                    <p class="tw-text-xs tw-m-0">#7B0D18</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-700</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-pianote-600"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark</p>
-                    <p class="tw-text-xs tw-m-0">#00BC75</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">#AC1222</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-600</p>
                 </div>
             </div>
             <div>
                 <div class="tw-p-12 tw-bg-pianote"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">DEFAULT</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F61A30</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-pianote-hover"></div>
+                <div class="tw-p-12 tw-bg-pianote-400"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Hover</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">(Hover)</p>
+                    <p class="tw-text-xs tw-m-0">#F73346</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-400</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-pianote-light"></div>
+                <div class="tw-p-12 tw-bg-pianote-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Light</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#FA7683</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-300</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-pianote-lightest"></div>
+                <div class="tw-p-12 tw-bg-pianote-200"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lighter</p>
+                    <p class="tw-text-xs tw-m-0">#FCB8BF</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-200</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-pianote-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Lightest</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#FEE8EA</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-100</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-pianote-gray"></div>
+                <div class="tw-p-12 tw-bg-pianote-50"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F6F5F5</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-pianote-50</p>
                 </div>
             </div>
         </div>
@@ -189,59 +229,83 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-darkest"></div>
+                <div class="tw-p-12 tw-bg-guitareo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
-                    <p class="tw-text-xs tw-m-0">#F71B26</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Black</p>
+                    <p class="tw-text-xs tw-m-0">#101817</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-900</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-dark"></div>
+                <div class="tw-p-12 tw-bg-guitareo-800"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0">#0C443C</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-800</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-guitareo-700"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darker</p>
+                    <p class="tw-text-xs tw-m-0">#007967</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-700</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-guitareo-600"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark</p>
-                    <p class="tw-text-xs tw-m-0">#00BC75</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">#00A18A</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-600</p>
                 </div>
             </div>
             <div>
                 <div class="tw-p-12 tw-bg-guitareo"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">DEFAULT</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#00C9AC</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-hover"></div>
+                <div class="tw-p-12 tw-bg-guitareo-400"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Hover</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">(Hover)</p>
+                    <p class="tw-text-xs tw-m-0">#66DFCD</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-400</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-light"></div>
+                <div class="tw-p-12 tw-bg-guitareo-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Light</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#A8EDE3</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-300</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-lightest"></div>
+                <div class="tw-p-12 tw-bg-guitareo-200"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lighter</p>
+                    <p class="tw-text-xs tw-m-0">#CCF4EE</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-200</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-guitareo-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Lightest</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#E6FAF7</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-100</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-guitareo-gray"></div>
+                <div class="tw-p-12 tw-bg-guitareo-50"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F2F4F3</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-guitareo-50</p>
                 </div>
             </div>
         </div>
@@ -250,59 +314,83 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-singeo-darkest"></div>
+                <div class="tw-p-12 tw-bg-singeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
-                    <p class="tw-text-xs tw-m-0">#F71B26</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Black</p>
+                    <p class="tw-text-xs tw-m-0">#18131C</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-900</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-singeo-dark"></div>
+                <div class="tw-p-12 tw-bg-singeo-800"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0">#320E4F</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-800</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-singeo-700"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darker</p>
+                    <p class="tw-text-xs tw-m-0">#4F008C</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-700</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-singeo-600"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark</p>
-                    <p class="tw-text-xs tw-m-0">#00BC75</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">#6900BA</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-600</p>
                 </div>
             </div>
             <div>
                 <div class="tw-p-12 tw-bg-singeo"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">DEFAULT</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#8300E9</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-singeo-hover"></div>
+                <div class="tw-p-12 tw-bg-singeo-400"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Hover</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">(Hover)</p>
+                    <p class="tw-text-xs tw-m-0">#9C33ED</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-400</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-singeo-light"></div>
+                <div class="tw-p-12 tw-bg-singeo-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Light</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#B566F2</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-300</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-singeo-lightest"></div>
+                <div class="tw-p-12 tw-bg-singeo-200"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lighter</p>
+                    <p class="tw-text-xs tw-m-0">#DAB3F8</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-200</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-singeo-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Lightest</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F3E6FD</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-100</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-singeo-gray"></div>
+                <div class="tw-p-12 tw-bg-singeo-50"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F4F3F5</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-singeo-50</p>
                 </div>
             </div>
         </div>
@@ -311,43 +399,83 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-recordeo-darkest"></div>
+                <div class="tw-p-12 tw-bg-recordeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
-                    <p class="tw-text-xs tw-m-0">#F71B26</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Black</p>
+                    <p class="tw-text-xs tw-m-0">#1E1B14</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-900</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-recordeo-dark"></div>
+                <div class="tw-p-12 tw-bg-recordeo-800"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darkest</p>
+                    <p class="tw-text-xs tw-m-0">#563F0F</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-800</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-recordeo-700"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Darker</p>
+                    <p class="tw-text-xs tw-m-0">#996800</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-700</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-recordeo-600"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark</p>
-                    <p class="tw-text-xs tw-m-0">#00BC75</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">#CC8B00</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-600</p>
                 </div>
             </div>
             <div>
                 <div class="tw-p-12 tw-bg-recordeo"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">DEFAULT</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
+                    <p class="tw-text-xs tw-m-0">#FFAE00</p>
                     <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-recordeo-light"></div>
+                <div class="tw-p-12 tw-bg-recordeo-400"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">(Hover)</p>
+                    <p class="tw-text-xs tw-m-0">#FFBE33</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-400</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-recordeo-300"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Light</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#FFCE66</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-300</p>
                 </div>
             </div>
             <div>
-                <div class="tw-p-12 tw-bg-recordeo-gray"></div>
+                <div class="tw-p-12 tw-bg-recordeo-200"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lighter</p>
+                    <p class="tw-text-xs tw-m-0">#FFE3A7</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-200</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-recordeo-100"></div>
+                <div class="tw-bg-gray-100 tw-p-2">
+                    <p class="tw-text-xs tw-m-0 tw-font-bold">Lightest</p>
+                    <p class="tw-text-xs tw-m-0">#FFEFCC</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-100</p>
+                </div>
+            </div>
+            <div>
+                <div class="tw-p-12 tw-bg-recordeo-50"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray</p>
-                    <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">#F6F5F4</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-recordeo-50</p>
                 </div>
             </div>
         </div>

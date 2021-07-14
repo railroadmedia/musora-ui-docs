@@ -27,18 +27,20 @@ Primary buttons are customized by adding background color classes prefixed with 
 </a>
 <a href="#" class="tw-btn-primary tw-bg-pianote">
     <span>
-        Icon Right
-        <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
+        Pianote
     </span>
 </a>
 <a href="#" class="tw-btn-primary tw-bg-guitareo">
     <span>
-        <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-        Icon Left
+        <i class="fa fa-play tw-pr-2" aria-hidden="true"></i>
+        Guitareo
     </span>
 </a>
-<a href="#" class="tw-btn-primary tw-bg-singeo tw-px-4">
-    <i class="fa fa-star" aria-hidden="true"></i>
+<a href="#" class="tw-btn-primary tw-bg-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-2" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-primary" disabled>
     <span>Disabled</span>
@@ -48,20 +50,22 @@ Primary buttons are customized by adding background color classes prefixed with 
 <a href="#" class="tw-btn-primary tw-bg-drumeo">
     <span>Drumeo</span>
 </a>
-<a href="#" class="tw-btn-primary tw-bg-guitareo">
-    <span>
-        <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-        Icon Left
-    </span>
-</a>
 <a href="#" class="tw-btn-primary tw-bg-pianote">
     <span>
-        Icon Right
-        <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
+        Pianote
     </span>
 </a>
-<a href="#" class="tw-btn-primary tw-bg-singeo tw-px-4">
-    <i class="fa fa-star" aria-hidden="true"></i>
+<a href="#" class="tw-btn-primary tw-bg-guitareo">
+    <span>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
+        Guitareo
+    </span>
+</a>
+<a href="#" class="tw-btn-primary tw-bg-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-primary" disabled>
     <span>Disabled</span>
@@ -81,18 +85,20 @@ Secondary buttons are customized by adding text color classes prefixed with `tw-
 </a>
 <a href="#" class="tw-btn-secondary tw-text-pianote">
     <span>
-        Icon Right
-        <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
+        Pianote
     </span>
 </a>
 <a href="#" class="tw-btn-secondary tw-text-guitareo">
     <span>
-        <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-        Icon Left
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
+        Guitareo
     </span>
 </a>
-<a href="#" class="tw-btn-secondary tw-text-singeo tw-px-4">
-    <i class="fa fa-star" aria-hidden="true"></i>
+<a href="#" class="tw-btn-secondary tw-text-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-secondary" disabled>
     <span>Disabled</span>
@@ -104,18 +110,20 @@ Secondary buttons are customized by adding text color classes prefixed with `tw-
 </a>
 <a href="#" class="tw-btn-secondary tw-text-pianote">
     <span>
-        Icon Right
-        <i class="fa fa-bell tw-pl-2" aria-hidden="true"></i>
+        Pianote
     </span>
 </a>
 <a href="#" class="tw-btn-secondary tw-text-guitareo">
     <span>
-        <i class="fa fa-pencil tw-pr-2" aria-hidden="true"></i>
-        Icon Left
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
+        Guitareo
     </span>
 </a>
-<a href="#" class="tw-btn-secondary tw-text-singeo tw-px-4">
-    <i class="fa fa-star" aria-hidden="true"></i>
+<a href="#" class="tw-btn-secondary tw-text-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-secondary" disabled>
     <span>Disabled</span>
@@ -136,14 +144,20 @@ The `tw-btn-small` decreases height and font-size of buttons.
 <a href="#" class="tw-btn-primary tw-btn-small tw-bg-drumeo">
     <span>Drumeo</span>
 </a>
-<a href="#" class="tw-btn-secondary tw-btn-small tw-text-pianote">
+<a href="#" class="tw-btn-primary tw-btn-small tw-bg-pianote">
+    <span>Pianote</span>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-text-guitareo">
     <span>
-        <i class="fa fa-bell tw-pr-2" aria-hidden="true"></i>
-        Icon Left
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Guitareo
     </span>
 </a>
-<a href="#" class="tw-btn-primary tw-btn-small tw-px-2 tw-bg-recordeo">
-    <i class="fa fa-star tw-text-red-500" aria-hidden="true"></i> 
+<a href="#" class="tw-btn-secondary tw-btn-small tw-text-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-1" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small" disabled>
     <span>Disabled</span>
@@ -153,14 +167,20 @@ The `tw-btn-small` decreases height and font-size of buttons.
 <a href="#" class="tw-btn-primary tw-btn-small tw-bg-drumeo">
     <span>Drumeo</span>
 </a>
-<a href="#" class="tw-btn-secondary tw-btn-small tw-text-pianote">
+<a href="#" class="tw-btn-primary tw-btn-small tw-bg-pianote">
+    <span>Pianote</span>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-text-guitareo">
     <span>
-        <i class="fa fa-bell tw-pr-2" aria-hidden="true"></i>
-        Icon Left
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Guitareo
     </span>
 </a>
-<a href="#" class="tw-btn-primary tw-btn-small tw-px-2 tw-bg-recordeo">
-    <i class="fa fa-star tw-text-red-500" aria-hidden="true"></i> 
+<a href="#" class="tw-btn-secondary tw-btn-small tw-text-singeo">
+    <span>
+        <i class="fa fa-plus tw-pr-1" aria-hidden="true"></i>
+        Singeo
+    </span>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small" disabled>
     <span>Disabled</span>
@@ -180,8 +200,11 @@ While it's almost possible to get a circular button by adjusting padding values 
 <a href="#" class="tw-btn-secondary tw-btn-circle tw-text-pianote">
     <i class="fa fa-bell" aria-hidden="true"></i>
 </a>
-<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-singeo">
+<a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle tw-bg-singeo">
     <i class="fa fa-check" aria-hidden="true"></i>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-guitareo">
+    <i class="fa fa-play" aria-hidden="true"></i>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle" disabled>
     <i class="fa fa-pencil" aria-hidden="true"></i> 
@@ -194,8 +217,11 @@ While it's almost possible to get a circular button by adjusting padding values 
 <a href="#" class="tw-btn-secondary tw-btn-circle tw-text-pianote">
     <i class="fa fa-bell" aria-hidden="true"></i>
 </a>
-<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-singeo">
+<a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle tw-bg-singeo">
     <i class="fa fa-check" aria-hidden="true"></i>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-small tw-btn-circle tw-text-guitareo">
+    <i class="fa fa-play" aria-hidden="true"></i>
 </a>
 <a href="#" class="tw-btn-primary tw-btn-small tw-btn-circle" disabled>
     <i class="fa fa-pencil" aria-hidden="true"></i> 
