@@ -12,7 +12,7 @@ background colors, text colors, border colors and gradients. You can search the 
     <div class="tw-py-8">
         <h4>Brands</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-drumeo"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -57,7 +57,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Drumeo</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-drumeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -142,7 +142,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Pianote</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-pianote-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -227,7 +227,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Guitareo</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-guitareo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -312,7 +312,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Singeo</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-singeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -397,7 +397,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Recordeo</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-recordeo-900"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -482,7 +482,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Content Types</h4>
         <br>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-content-courses"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -529,7 +529,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br/>
         <p>While Tailwind.css provides gray color variants, Stylesora includes it's own set of <i>warm</i> gray variants to match Musora's color palette.</p>
         <br>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-white tw-border-gray-100 tw-border"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -598,7 +598,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>Dark Mode</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-dm-mild-blue tw-border-gray-100 tw-border"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -651,7 +651,7 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <h4>UI Colors</h4>
         <br/>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-4 lg:tw-grid-cols-5 xl:tw-grid-cols-6 tw-gap-3">
+        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
                 <div class="tw-p-12 tw-bg-ui-error"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
@@ -695,6 +695,14 @@ Each color swatch includes a CSS class prefixed with <b>tw-</b> for Tailwind and
     <p class="tw-text-guitareo tw-text-center">This is a text example in Guitareo's primary color.</p>
 </div>
 ```
+<hr>
+
+#### Color Gradients Examples
+<br>
+
+Examples coming soon...
+
+<br><hr>
 
 #### Tailwind Color Documentation
 <br>

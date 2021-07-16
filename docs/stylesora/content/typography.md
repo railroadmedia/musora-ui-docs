@@ -94,7 +94,11 @@ The letter-spacing and size may be adjusted to match the design.
 <br>
 
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h1 class="tw-leading-none">Heading One</h1>
+    <h1 class="tw-leading-none tw-text-54">Musora Stats Level</h1>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-54</div>
+</div>
+<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+    <h1 class="tw-leading-none tw-text-4xl">Heading One</h1>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
@@ -102,23 +106,23 @@ The letter-spacing and size may be adjusted to match the design.
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-32</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h2 class="tw-leading-none">Heading Two</h2>
+    <h2 class="tw-leading-none tw-text-3xl">Heading Two</h2>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h3 class="tw-leading-none">Heading Three</h3>
+    <h3 class="tw-leading-none tw-text-2xl">Heading Three</h3>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h4 class="tw-leading-none">Heading Four</h4>
+    <h4 class="tw-leading-none tw-text-xl">Heading Four</h4>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h4</i>tw-text-xl</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h5 class="tw-leading-none">Heading Five</h5>
+    <h5 class="tw-leading-none tw-text-lg">Heading Five</h5>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h5</i>tw-text-lg</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h6 class="tw-leading-none">Heading Six</h6>
+    <h6 class="tw-leading-none tw-text-base">Heading Six</h6>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h6</i>tw-text-base</div>
 </div>
 <div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">

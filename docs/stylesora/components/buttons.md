@@ -227,3 +227,45 @@ While it's almost possible to get a circular button by adjusting padding values 
     <i class="fa fa-pencil" aria-hidden="true"></i> 
 </a>
 ```
+
+<hr>
+
+#### Custom Button Examples
+<br>
+
+There may be times where the design calls for a button that is outside of the brand colors. Luckily Tailwind gives a wide variety of colors and helper classes to choose from. 
+
+<br>
+
+<div class="tw-bg-dm-royal-blue tw-p-4 tw-w-full tw-rounded-md">
+<a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-pink-600 hover:tw-bg-pink-600 hover:tw-text-white hover:tw-border-pink-600">
+    <span>
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Songs Trailer
+    </span>
+</a>
+<a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
+hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
+    <span>
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Coaches Trailer
+    </span>
+</a>
+</div>
+
+
+```html
+<a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-pink-600 hover:tw-bg-pink-600 hover:tw-text-white hover:tw-border-pink-600">
+    <span>
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Songs Trailer
+    </span>
+</a>
+<a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
+hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
+    <span>
+        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        Coaches Trailer
+    </span>
+</a>
+```
