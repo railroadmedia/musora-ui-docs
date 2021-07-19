@@ -32,13 +32,13 @@ Primary buttons are customized by adding background color classes prefixed with 
 </a>
 <a href="#" class="tw-btn-primary tw-bg-guitareo">
     <span>
-        <i class="fa fa-play tw-pr-2" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Guitareo
     </span>
 </a>
 <a href="#" class="tw-btn-primary tw-bg-singeo">
     <span>
-        <i class="fa fa-plus tw-pr-2" aria-hidden="true"></i>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
         Singeo
     </span>
 </a>
@@ -149,13 +149,13 @@ The `tw-btn-small` decreases height and font-size of buttons.
 </a>
 <a href="#" class="tw-btn-secondary tw-btn-small tw-text-guitareo">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Guitareo
     </span>
 </a>
 <a href="#" class="tw-btn-secondary tw-btn-small tw-text-singeo">
     <span>
-        <i class="fa fa-plus tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
         Singeo
     </span>
 </a>
@@ -172,13 +172,13 @@ The `tw-btn-small` decreases height and font-size of buttons.
 </a>
 <a href="#" class="tw-btn-secondary tw-btn-small tw-text-guitareo">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Guitareo
     </span>
 </a>
 <a href="#" class="tw-btn-secondary tw-btn-small tw-text-singeo">
     <span>
-        <i class="fa fa-plus tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-plus tw-pr-1.5" aria-hidden="true"></i>
         Singeo
     </span>
 </a>
@@ -240,14 +240,14 @@ There may be times where the design calls for a button that is outside of the br
 <div class="tw-bg-dm-royal-blue tw-p-4 tw-w-full tw-rounded-md">
 <a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-pink-600 hover:tw-bg-pink-600 hover:tw-text-white hover:tw-border-pink-600">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Songs Trailer
     </span>
 </a>
 <a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
 hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Coaches Trailer
     </span>
 </a>
@@ -257,14 +257,14 @@ hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
 ```html
 <a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-pink-600 hover:tw-bg-pink-600 hover:tw-text-white hover:tw-border-pink-600">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Songs Trailer
     </span>
 </a>
 <a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
 hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
     <span>
-        <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+        <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Coaches Trailer
     </span>
 </a>
