@@ -244,8 +244,7 @@ There may be times where the design calls for a button that is outside of the br
         Songs Trailer
     </span>
 </a>
-<a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
-hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
+<a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-yellow-400 hover:tw-bg-yellow-400 hover:tw-text-white hover:tw-border-yellow-400">
     <span>
         <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Coaches Trailer
@@ -261,8 +260,7 @@ hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
         Songs Trailer
     </span>
 </a>
-<a href="#" class="tw-transition-none tw-btn-secondary tw-px-6 tw-h-auto tw-py-3 tw-btn-small tw-text-recordeo
-hover:tw-bg-recordeo hover:tw-text-white hover:tw-border-recordeo">
+<a href="#" class="tw-transition-none tw-px-6 tw-h-auto tw-py-3 tw-btn-secondary tw-btn-small tw-text-yellow-400 hover:tw-bg-yellow-400 hover:tw-text-white hover:tw-border-yellow-400">
     <span>
         <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
         Coaches Trailer

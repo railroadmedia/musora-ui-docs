@@ -93,59 +93,51 @@ The letter-spacing and size may be adjusted to match the design.
 #### Type Scale
 <br>
 
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h1 class="tw-leading-none tw-text-54">Musora Stats Level</h1>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-54</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <h1 class="tw-leading-none tw-text-5xl">Large Heading</h1>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-5xl - 3rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h1 class="tw-leading-none tw-text-4xl">Heading One</h1>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl - 2.25rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <h2 class="tw-leading-none tw-text-32">Musora Heading</h2>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-32</div>
-</div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h2 class="tw-leading-none tw-text-3xl">Heading Two</h2>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl - 1.875rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h3 class="tw-leading-none tw-text-2xl">Heading Three</h3>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl - 1.5rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h4 class="tw-leading-none tw-text-xl">Heading Four</h4>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h4</i>tw-text-xl</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h4</i>tw-text-xl - 1.25rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h5 class="tw-leading-none tw-text-lg">Heading Five</h5>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h5</i>tw-text-lg</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h5</i>tw-text-lg - 1.125rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h6 class="tw-leading-none tw-text-base">Heading Six</h6>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h6</i>tw-text-base</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h6</i>tw-text-base - 1rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-base">Paragraphs</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-base</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-base - 1rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-sm">Paragraph Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
-    <p class="tw-leading-none tw-text-13">Musora Site Content</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-13</div>
-</div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-xs">Paragraph Extra Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-xs</div>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-xs - 0.75rem</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h3 class="tw-title tw-font-normal tw-leading-none">Title</h3>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl tw-font-normal</div>
 </div>
-<div class="tw-py-4 tw-border-b bw-border-gray-400 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-font-roboto-condensed tw-font-bold tw-uppercase tw-leading-none">Buttons</p>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-font-roboto-condensed tw-font-bold</div>
 </div>

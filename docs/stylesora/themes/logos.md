@@ -49,8 +49,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
         <!-- Logo -->
-        <div class="tw-bg-drumeo tw-p-20 tw-m-12">
-            <div class="tw-text-white tw-w-52 tw-mx-auto">
+        <div class="tw-bg-drumeo tw-p-16 tw-m-12">
+            <div class="tw-text-white tw-w-72 tw-mx-auto">
                 <img src="https://musora-ui.s3.amazonaws.com/logos/drumeo-white.svg" title="Drumeo Logo">
             </div>
         </div>
@@ -63,7 +63,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/><br/>
         <!-- Color -->
         <div class="tw-flex tw-mb-8 tw-w-full">
-            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/drumeo.svg" title="Drumeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -77,7 +77,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- White -->
         <div class="tw-flex tw-mb-8">
-            <div class="tw-bg-drumeo tw-p-12 tw-w-1/2">
+            <div class="tw-bg-drumeo tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/drumeo-white.svg" title="Drumeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -91,7 +91,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- Black -->
         <div class="tw-flex">
-            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/drumeo-black.svg" title="Drumeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -110,8 +110,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
         <!-- Logo -->
-        <div class="tw-bg-pianote tw-p-20 tw-m-12">
-            <div class="tw-text-white tw-w-52 tw-mx-auto">
+        <div class="tw-bg-pianote tw-p-16 tw-m-12">
+            <div class="tw-text-white tw-w-72 tw-mx-auto">
                 <img src="https://musora-ui.s3.amazonaws.com/logos/pianote-white.svg" title="Pianote Logo">
             </div>
         </div>
@@ -124,7 +124,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <!-- Color -->
         <div class="tw-flex tw-mb-8 tw-w-full">
-            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/pianote.svg" title="pianote Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -138,7 +138,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- White -->
         <div class="tw-flex tw-mb-8">
-            <div class="tw-bg-pianote tw-p-12 tw-w-1/2">
+            <div class="tw-bg-pianote tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/pianote-white.svg" title="pianote Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -152,7 +152,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- Black -->
         <div class="tw-flex">
-            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/pianote-black.svg" title="pianote Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -171,8 +171,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
         <!-- Logo -->
-        <div class="tw-bg-guitareo tw-p-20 tw-m-12">
-            <div class="tw-text-white tw-w-52 tw-mx-auto">
+        <div class="tw-bg-guitareo tw-p-16 tw-m-12">
+            <div class="tw-text-white tw-w-72 tw-mx-auto">
                 <img src="https://musora-ui.s3.amazonaws.com/logos/guitareo-white.svg" title="Guitareo Logo">
             </div>
         </div>
@@ -185,7 +185,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <!-- Color -->
         <div class="tw-flex tw-mb-8 tw-w-full">
-            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/guitareo.svg" title="guitareo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -199,7 +199,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- White -->
         <div class="tw-flex tw-mb-8">
-            <div class="tw-bg-guitareo tw-p-12 tw-w-1/2">
+            <div class="tw-bg-guitareo tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/guitareo-white.svg" title="guitareo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -213,7 +213,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- Black -->
         <div class="tw-flex">
-            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/guitareo-black.svg" title="guitareo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -232,8 +232,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
         <!-- Logo -->
-        <div class="tw-bg-singeo tw-p-20 tw-m-12">
-            <div class="tw-text-white tw-w-44 tw-mx-auto">
+        <div class="tw-bg-singeo tw-p-16 tw-m-12">
+            <div class="tw-text-white tw-w-60 tw-mx-auto">
                 <img class="tw-w-full" src="https://musora-ui.s3.amazonaws.com/logos/singeo-white.svg" title="Singeo Logo">
             </div>
         </div>
@@ -246,7 +246,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <!-- Color -->
         <div class="tw-flex tw-mb-8 tw-w-full">
-            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo.svg" title="Singeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -260,7 +260,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- White -->
         <div class="tw-flex tw-mb-8">
-            <div class="tw-bg-singeo tw-p-12 tw-w-1/2">
+            <div class="tw-bg-singeo tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo-white.svg" title="Singeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -274,7 +274,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- Black -->
         <div class="tw-flex">
-            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-44 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/singeo-black.svg" title="Singeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -293,8 +293,8 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <p>Featuring a customized spin on Myriad Pro with a small drum icon inside the "O", our wordmark is unique and recognize at a quick glance.</p>
         <!-- Logo -->
-        <div class="tw-bg-recordeo tw-p-20 tw-m-12">
-            <div class="tw-text-white tw-w-52 tw-mx-auto">
+        <div class="tw-bg-recordeo tw-p-16 tw-m-12">
+            <div class="tw-text-white tw-w-80 tw-mx-auto">
                 <img class="tw-w-full" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-white.svg" title="recordeo Logo">
             </div>
         </div>
@@ -307,7 +307,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         <br/>
         <!-- Color -->
         <div class="tw-flex tw-mb-8 tw-w-full">
-            <div class="tw-bg-black tw-p-12 tw-w-1/2">
+            <div class="tw-bg-black tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo.svg" title="recordeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -321,7 +321,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- White -->
         <div class="tw-flex tw-mb-8">
-            <div class="tw-bg-recordeo tw-p-12 tw-w-1/2">
+            <div class="tw-bg-recordeo tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-white.svg" title="recordeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -335,7 +335,7 @@ logo features a customized spin on Myriad Pro, with an alteration to the last le
         </div>
         <!-- Black -->
         <div class="tw-flex">
-            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+            <div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
                 <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/recordeo-black.svg" title="recordeo Logo">
             </div>
             <div class="tw-bg-blue-50 tw-py-8 tw-px-12 tw-w-1/2">
@@ -370,7 +370,7 @@ to ensure the smallest possible file size.
     <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/pianote-white.svg" title="Pianote Logo">
 </div>
 <!-- Guitareo Logo in Black / Gray Background -->
-<div class="tw-bg-gray-200 tw-p-12 tw-w-1/2">
+<div class="tw-bg-gray-200 tw-p-12 tw-w-1/2 tw-flex">
     <img class="tw-w-52 tw-mx-auto" src="https://musora-ui.s3.amazonaws.com/logos/guitareo-black.svg" title="Guitareo Logo">
 </div>
 ```

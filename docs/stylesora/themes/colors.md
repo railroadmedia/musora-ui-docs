@@ -479,51 +479,6 @@ background colors, text colors, border colors and gradients. You can search the 
                 </div>
             </div>
         </div>
-        <br>
-        <h4>Content Types</h4>
-        <br>
-        <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
-            <div>
-                <div class="tw-p-12 tw-bg-content-courses"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Courses</p>
-                    <p class="tw-text-xs tw-m-0">#07A0FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-courses</p>
-                </div>
-            </div>
-            <div>
-                <div class="tw-p-12 tw-bg-content-shows"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Shows</p>
-                    <p class="tw-text-xs tw-m-0">#0BBE76</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-shows</p>
-                </div>
-            </div>
-            <div>
-                <div class="tw-p-12 tw-bg-content-songs"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Songs</p>
-                    <p class="tw-text-xs tw-m-0">#F8004F</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-songs</p>
-                </div>
-            </div>
-            <div>
-                <div class="tw-p-12 tw-bg-content-play-alongs"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Play-Alongs</p>
-                    <p class="tw-text-xs tw-m-0">#FFB500</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-play-alongs</p>
-                </div>
-            </div>
-            <div>
-                <div class="tw-p-12 tw-bg-content-rudiments"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">Rudiments</p>
-                    <p class="tw-text-xs tw-m-0">#FA6300</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-rudiments</p>
-                </div>
-            </div>
-        </div>
         <br/>
         <h4>Gray Variations</h4>
         <br/>

@@ -6,8 +6,8 @@ home: true
   <div class="tw-flex tw-px-4 md:tw-px-6 tw-mx-auto tw-max-w-screen-lg tw-flex-col-reverse md:tw-flex-row">
     <div class="tw-w-10/12 tw-mx-auto tw-text-center md:tw-text-left md:tw-w-1/2 tw-text-white">
       <h1 class="md:tw-text-4xl tw-mb-6 tw-text-3xl">Components, Patterns, and Templates for creating awesome web experiences. </h1>
-      <h3 class="tw-mb-8 tw-font-semibold">Musora UI is comprised of three separate libraries to help add style, strucure and functionality to our websites and web-applications</h3>
-      <a href="#features" class="tw-btn-tertiary hover:tw-text-drumeo">
+      <h3 class="tw-mb-8 tw-font-semibold">Musora UI is comprised of three separate libraries to help add style, structure and functionality to our websites and web-applications</h3>
+      <a href="#features" class="tw-btn-secondary hover:tw-bg-white hover:tw-text-drumeo">
         <span class="">Explore Features</span>
       </a>
     </div>
@@ -36,10 +36,10 @@ home: true
         Built as <a href="https://tailwindcss.com/docs/plugins">Tailwind plugins</a>, it extends the Tailwind library to provide what you need to build
         awesome Musora sites and apps.
       </p>
-      <a href="/stylesora/" class="tw-btn-primary tw-bg-drumeo">
+      <a href="/stylesora/" class="tw-btn-primary tw-bg-drumeo tw-px-12 tw-mb-2">
         <span>Stylesora Docs</span>
       </a>
-      <a href="https://github.com/railroadmedia/stylesora" class="tw-btn-secondary tw-text-drumeo">
+      <a href="https://github.com/railroadmedia/stylesora" class="tw-btn-secondary tw-text-drumeo tw-px-12">
         <span>Github Repo</span>
       </a>
     </div>
@@ -62,10 +62,10 @@ home: true
         A custom Vue.js Component library for Musora's members area pages. Vuesora's components should be used wherever complex DOM manipulation is required.
         For simpler DOM manipulation you can utilize Stylesoras javascript package built on Alpine.js. 
       </p>
-      <a href="/" class="tw-btn-primary tw-bg-guitareo">
+      <a href="/" class="tw-btn-primary tw-bg-guitareo tw-px-12 tw-mb-2">
         <span>Vuesora Docs</span>
       </a>
-      <a href="https://github.com/railroadmedia/vuesora" class="tw-btn-secondary tw-text-guitareo">
+      <a href="https://github.com/railroadmedia/vuesora" class="tw-btn-secondary tw-text-guitareo tw-px-12">
         <span>Github Repo</span>
       </a>
     </div>
@@ -81,10 +81,10 @@ home: true
       <p class="tw-mb-8 tw-text-gray-700">
         A Laravel Blade Template library for Musora members area pages. Bladesora is built on top of Laravel's Blade template engine, which means it has access to all of Blade's directives, components and data injection features. You can customize Bladesora templates by passing theme data, making styling your site quick and simple. 
       </p>
-      <a href="/" class="tw-btn-primary tw-bg-pianote">
+      <a href="/" class="tw-btn-primary tw-bg-pianote tw-px-12 tw-mb-2">
         <span>Bladesora Docs</span>
       </a>
-      <a href="https://github.com/railroadmedia/bladesora" class="tw-btn-secondary tw-text-pianote">
+      <a href="https://github.com/railroadmedia/bladesora" class="tw-btn-secondary tw-text-pianote tw-px-12">
         <span>Github Repo</span>
       </a>
     </div>
@@ -96,7 +96,7 @@ home: true
 
 <!-- Final Thought -->
 <section class="tw-py-20 md:tw-py-28 tw-bg-black tw-text-white ">
-  <div class="tw-w-3/4 tw-mx-auto tw-text-center">
+  <div class="tw-mx-auto tw-text-center tw-mx-auto tw-max-w-screen-lg tw-px-4 md:tw-px-6">
     <h2 class="tw-font-extrabold tw-border-none tw-uppercase tw-mb-4 tw-font-roboto-condensed">Use <span class="tw-text-drumeo tw-inline-block tw-border-b-4 tw-border-current">However</span> You Want</h2>
     <p class="tw-text-lg tw-font-normal tw-text-white tw-mb-8">These libraries are meant to work together or seperately. You can pass template data to a Vuesora component or include Stylesora's CSS to your Vuesora component or you can style and simple functionality to a Bladesora template with Stylesora. For more information please visit the documentation pages or the respective Github pages. </p>
     <a href="#top" class="tw-btn-secondary tw-drumeo-text">
