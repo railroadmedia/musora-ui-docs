@@ -559,7 +559,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Mild Blue</p>
                     <p class="tw-text-xs tw-m-0">#7E9AB1</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-mild-blue</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-mild-blue</p>
                 </div>
             </div>
             <div>
@@ -567,7 +567,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray/Blue</p>
                     <p class="tw-text-xs tw-m-0">#445F74</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-gray-blue</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-gray-blue</p>
                 </div>
             </div>
             <div>
@@ -575,7 +575,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Royal Blue</p>
                     <p class="tw-text-xs tw-m-0">#002039</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-royal-blue</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-royal-blue</p>
                 </div>
             </div>
             <div>
@@ -583,7 +583,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #1</p>
                     <p class="tw-text-xs tw-m-0">#081825</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-1</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-dark-blue-1</p>
                 </div>
             </div>
             <div>
@@ -591,7 +591,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #2</p>
                     <p class="tw-text-xs tw-m-0">#00101D</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-2</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-dark-blue-2</p>
                 </div>
             </div>
             <div>
@@ -599,7 +599,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Dark Blue #3</p>
                     <p class="tw-text-xs tw-m-0">#010611</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-dark-blue-3</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-dm-dark-blue-3</p>
                 </div>
             </div>
         </div>             
@@ -612,7 +612,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Errors</p>
                     <p class="tw-text-xs tw-m-0">#F71B26</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-error</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-ui-error</p>
                 </div>
             </div>
             <div>
@@ -620,7 +620,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Success</p>
                     <p class="tw-text-xs tw-m-0">#00BC75</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-success</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-ui-success</p>
                 </div>
             </div>
             <div>
@@ -628,7 +628,7 @@ background colors, text colors, border colors and gradients. You can search the 
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Highlight</p>
                     <p class="tw-text-xs tw-m-0">#F3F9FF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-highlight</p>
+                    <p class="tw-text-xs tw-m-0">tw-bg-ui-highlight</p>
                 </div>
             </div>
         </div>
@@ -641,21 +641,35 @@ Each color swatch includes a CSS class prefixed with <b>tw-</b> for Tailwind and
 
 #### Code Example:
 
-<div class="tw-border tw-border-guitareo tw-bg-green-50 tw-p-4 tw-my-4">
-    <p class="tw-text-guitareo tw-text-center">This is a text example in Guitareo's primary color.</p>
+<div class="tw-border tw-border-solid tw-border-singeo tw-bg-singeo-100 tw-p-4 tw-my-4">
+    <p class="tw-text-singeo tw-text-center">This is a text example in singeo's primary color.</p>
 </div>
 
 ```html
-<div class="tw-border tw-border-guitareo tw-bg-highlight tw-p-4 tw-m-4">
-    <p class="tw-text-guitareo tw-text-center">This is a text example in Guitareo's primary color.</p>
+<div class="tw-border tw-border-solid tw-border-singeo tw-bg-singeo-100 ...">
+    <p class="tw-text-singeo tw-text-center">This is a text example in singeo's primary color.</p>
 </div>
 ```
 <hr>
 
-#### Color Gradients Examples
+### Color Gradients Examples
+#### Linear to Right
 <br>
 
-Examples coming soon...
+<div class="tw-bg-gradient-to-r tw-from-drumeo tw-to-drumeo-900 tw-w-full tw-h-24"></div>
+
+```html
+<div class="tw-bg-gradient-to-r tw-from-drumeo tw-to-drumeo-900 ..."></div>
+```
+
+#### Linear to Bottom
+<br>
+
+<div class="tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote tw-w-full tw-h-24"></div>
+
+```html
+<div class="tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote ..."></div>
+```
 
 <br><hr>
 

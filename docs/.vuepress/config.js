@@ -71,9 +71,6 @@ module.exports = {
                     path: '/stylesora/utilities/',
                     collapsable: false,
                     sidebarDepth: 0,
-                    children: [
-                        '/stylesora/utilities/extensions',
-                    ]
                 },
                 {
                     title: 'Layout',
@@ -115,6 +112,10 @@ module.exports = {
                     path: '/stylesora/templates/',
                     collapsable: false,
                     sidebarDepth: 0,
+                    children: [
+                        ['/stylesora/templates/marketing', 'Marketing Page'],
+                        ['/stylesora/templates/members', 'Members Area'],
+                    ]
                 }
             ],
             '/vuesora/': [

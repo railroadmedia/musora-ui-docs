@@ -14,31 +14,31 @@ element and have each child inherit those styles.
 <br>
 <br>
 
-<button class="tw-text-drumeo tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+<button class="tw-btn-secondary tw-text-drumeo">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
     <span>Drumeo Button</span>
 </button>
-<button class="tw-text-pianote tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>   
+<button class="tw-btn-secondary tw-text-pianote ">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>   
     <span>Pianote Button</span>
 </button>
-<button class="tw-text-guitareo tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+<button class="tw-btn-secondary tw-text-guitareo ">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
     <span>Guitareo Button</span>
 </button>
 
 ```html
 <!-- Setting button themes with a single class -->
-<button class="tw-text-drumeo tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+<button class="tw-btn-secondary tw-text-drumeo ">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
     <span>Drumeo Button</span>
 </button>
-<button class="tw-text-pianote tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>   
+<button class="tw-btn-secondary tw-text-pianote ">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>   
     <span>Pianote Button</span>
 </button>
-<button class="tw-text-guitareo tw-btn-secondary">
-    <i class="fa fa-play tw-pr-1" aria-hidden="true"></i>
+<button class="tw-btn-secondary tw-text-guitareo ">
+    <i class="fa fa-play tw-pr-1.5" aria-hidden="true"></i>
     <span>Guitareo Button</span>
 </button>
 ```

@@ -1,19 +1,31 @@
 # Utilities
 
-Tailwind is built on the idea of being utility-first. It includes almost everything you would need to build modern layouts. However, Stylesora has extended these utility classes 
-to better support Musora's designs and experiences.
+Stylesora extends Tailwinds utility classes to fit Musora's unique front-end needs. Below you'll find a list of these classes with examples.
 
 <br><hr>
-#### Overview of Tailwinds Utilities
+
+#### Layout Utilities
 <br>
 
-Coming soon...
+Example Coming Soon...
 
 <br><hr>
-
-#### Contributing
+#### Scroll Utilties
 <br>
 
-Coming soon...
+Example Coming Soon...
 
 <br><hr>
+
+#### Scrollbar Utilities
+<br>
+
+Example Coming Soon...
+
+<br><hr>
+
+#### X-Cloak Utility
+<br>
+
+Example Coming Soon...
+
