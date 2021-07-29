@@ -486,14 +486,6 @@ background colors, text colors, border colors and gradients. You can search the 
         <br>
         <div class="tw-grid tw-grid-cols-3 md:tw-grid-cols-5 lg:tw-grid-cols-6 xl:tw-grid-cols-7 tw-gap-3">
             <div>
-                <div class="tw-p-12 tw-bg-white tw-border-gray-100 tw-border"></div>
-                <div class="tw-bg-gray-100 tw-p-2">
-                    <p class="tw-text-xs tw-m-0 tw-font-bold">White</p>
-                    <p class="tw-text-xs tw-m-0">#FFFFFF</p>
-                    <p class="tw-text-xs tw-m-0">tw-bg-white</p>
-                </div>
-            </div>
-            <div>
                 <div class="tw-p-12 tw-bg-ui-gray-100"></div>
                 <div class="tw-bg-gray-100 tw-p-2">
                     <p class="tw-text-xs tw-m-0 tw-font-bold">Gray #1</p>
@@ -653,7 +645,7 @@ Each color swatch includes a CSS class prefixed with <b>tw-</b> for Tailwind and
 <hr>
 
 ### Color Gradients Examples
-#### Linear to Right
+#### Background Gradient
 <br>
 
 <div class="tw-bg-gradient-to-r tw-from-drumeo tw-to-drumeo-900 tw-w-full tw-h-24"></div>
@@ -662,13 +654,23 @@ Each color swatch includes a CSS class prefixed with <b>tw-</b> for Tailwind and
 <div class="tw-bg-gradient-to-r tw-from-drumeo tw-to-drumeo-900 ..."></div>
 ```
 
-#### Linear to Bottom
+#### Text Gradient
 <br>
 
-<div class="tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote tw-w-full tw-h-24"></div>
+
+<div class="tw-text-7xl tw-text-center tw-font-permanent-marker">
+  <span class="tw-bg-clip-text tw-text-transparent tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote">
+    Music For Life!
+  </span>
+</div>
+<br>
 
 ```html
-<div class="tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote ..."></div>
+<div class="tw-text-7xl tw-font-permanent-marker ...">
+  <span class="tw-bg-clip-text tw-text-transparent tw-bg-gradient-to-b tw-from-guitareo tw-via-drumeo tw-via-singeo tw-to-pianote">
+    Music For Life!
+  </span>
+</div>
 ```
 
 <br><hr>
