@@ -20,7 +20,7 @@ current design. The hierarchy of content flows from left to right, the most impo
                 <p class="tw-text-sm tw-font-bold">This Is The Lesson Title</p>
             </div>
             <!-- Optional Content -->
-            <div class="tw-uppercase tw-text-xs tw-flex tw-text-gray-300">
+            <div class="tw-uppercase tw-text-xs tw-flex tw-text-gray-400">
                 <p class="tw-pr-3 lg:tw-px-4">All</p>
                 <p class="tw-pr-3 lg:tw-px-4">20 Lessons</p> 
                 <p class="lg:tw-px-4">May 16/24</p> 
@@ -47,7 +47,7 @@ current design. The hierarchy of content flows from left to right, the most impo
             <p class="tw-text-sm tw-font-bold">This Is The Lesson Title</p>
         </div>
         <!-- Optional Content -->
-        <div class="tw-uppercase tw-text-xs tw-flex tw-text-gray-300">
+        <div class="tw-uppercase tw-text-xs tw-flex tw-text-gray-400">
             <p class="tw-pr-3 lg:tw-px-4">All</p>
             <p class="tw-pr-3 lg:tw-px-4">20 Lessons</p> 
             <p class="lg:tw-px-4">May 16/24</p> 
