@@ -55,8 +55,8 @@ current design. The hierarchy of content flows from left to right, the most impo
         </div>
         <!-- Main CTA-->
         <div class="tw-flex tw-items-center tw-text-gray-300">
-            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block transition-colors hover:tw-text-black" aria-hidden="true"></i>
-            <i class="fas fa-play-circle tw-text-4xl tw-px-4 transition-colors hover:tw-text-black"></i>
+            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block transition-colors hover:tw-text-black cursor-pointer" aria-hidden="true"></i>
+            <i class="fas fa-play-circle tw-text-4xl tw-px-4 transition-colors hover:tw-text-black cursor-pointer"></i>
         </div>
     </div>
 ```
