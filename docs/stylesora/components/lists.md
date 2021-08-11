@@ -47,16 +47,16 @@ current design. The hierarchy of content flows from left to right, the most impo
                 <p class="tw-text-sm tw-font-bold">This Is The Lesson Title</p>
             </div>
             <!-- Optional Content -->
-            <div class="tw-uppercase tw-text-xs tw-flex">
+            <div class="tw-uppercase tw-text-xs tw-flex tw-text-gray-300">
                <p class="tw-pr-3 lg:tw-px-4">All</p>
                <p class="tw-pr-3 lg:tw-px-4">20 Lessons</p> 
                <p class="lg:tw-px-4">May 16/24</p> 
             </div>
         </div>
         <!-- Main CTA-->
-        <div class="tw-flex tw-items-center tw-text-gray-400">
-            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block" aria-hidden="true"></i>
-            <i class="fas fa-play-circle tw-text-4xl tw-px-4"></i>
+        <div class="tw-flex tw-items-center tw-text-gray-300">
+            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block transition-colors hover:tw-text-black" aria-hidden="true"></i>
+            <i class="fas fa-play-circle tw-text-4xl tw-px-4 transition-colors hover:tw-text-black"></i>
         </div>
     </div>
 ```
