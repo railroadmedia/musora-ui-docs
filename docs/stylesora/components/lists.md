@@ -1,65 +1,62 @@
-# Lists
+# Content Lists
 
-Lists are groups of similar or related content. Musroa uses lists to display large amounts of data. List can contain up to eight columns within the 
+Content Lists are groups of similar or related content. Musroa uses lists to display large amounts of data. List can contain up to eight columns within the 
 current design. The hierarchy of content flows from left to right, the most important data occupying the left side and least important on the right. 
 
 <br><hr>
-#### Unordered List
-##### Default
-<br>
-<!-- Example -->
-Example Coming Soon...
-
-##### Hover
-<br>
-<!-- Example -->
-Example Coming Soon...
-
-<br><hr>
-
-#### Oredered List
+#### Standard Content Lists
 <br>
 
-##### Default
-<br>
-<!-- Example -->
-Example Coming Soon...
+<div class="tw-bg-gray-100 tw-py-6 tw-px-4">
+    <!-- Card -->
+    <div class="tw-bg-white tw-p-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-items-center tw-transition-colors hover:tw-bg-drumeo-100">
+        <!--Fake thubnail -->
+        <div class="tw-w-20 tw-h-14 tw-rounded tw-bg-gray-300"></div>
+        <!-- Content -->
+        <div class="tw-flex tw-pl-3 tw-flex-grow tw-flex-col lg:tw-items-center lg:tw-flex-row">
+            <!-- Title -->
+            <div class="tw-flex-grow">
+                <h3 class="tw-uppercase tw-text-sm tw-font-normal tw-text-drumeo">Content Type</h3>
+                <p class="tw-text-sm tw-font-bold">This Is The Lesson Title</p>
+            </div>
+            <!-- Optional Content -->
+            <div class="tw-uppercase tw-text-xs tw-flex">
+               <p class="tw-pr-3 lg:tw-px-4">All</p>
+               <p class="tw-pr-3 lg:tw-px-4">20 Lessons</p> 
+               <p class="lg:tw-px-4">May 16/24</p> 
+            </div>
+        </div>
+        <!-- Main CTA-->
+        <div class="tw-flex tw-items-center tw-text-gray-400">
+            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block" aria-hidden="true"></i>
+            <i class="fas fa-play-circle tw-text-4xl tw-px-4"></i>
+        </div>
+    </div>
+</div>
 
-##### Hover
-<br>
-<!-- Example -->
-Example Coming Soon...
-
-<br><hr>
-#### List Anatomy
-
-##### 1. Media Thumbnail
-Media file contains an image or graphic representing the content. The thumbnail also contains a hover effect that reveals 
-the "Play" icon.
-
-##### 2. Title
-This is the main title of the content. It should be boldand descriptive. It should be kept as concise as possible. 
-
-##### 3. Content Type (Optional)
-This tag usually contains information regarding difficulty of the lesson. It is optional and can be changed
-depending on the use case. 
-
-##### 4. Tag 1 (Optional)
-This tag usually contains information regarding the difficulty of the lesson. If is optional and can be changed
-depending on the use case. 
-
-##### 5. Tag 2 (Optional)
-This tag usually contans information regarding the amount of lessons included in this list item. It can be
-replaced by the artist name or any other type of content deemed necessary. 
-
-##### 6. Tag 3 (Optional)
-This tag commonly contains the date the content was published. It can be replaced by any other tag or icon. 
-This position is the most flexible of all the tags. 
-
-##### 7. Icon 1 (Optional)
-The "Add To My List" icon is typically used here but can be replaced with another icon depending 
-on the situation. 
-
-##### 8. Icon 2 (Optional)
-The "Play" icon is typically used here but can be replaced with another icon depending on the 
-situation.
+```html
+    <!-- Card -->
+    <div class="tw-bg-white tw-p-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-items-center tw-transition-colors hover:tw-bg-drumeo-100">
+        <!--thubnail -->
+        <img src="" class="tw-w-20 tw-h-14 tw-rounded">
+        <!-- Content -->
+        <div class="tw-flex tw-pl-3 tw-flex-grow tw-flex-col lg:tw-items-center lg:tw-flex-row">
+            <!-- Title -->
+            <div class="tw-flex-grow">
+                <h3 class="tw-uppercase tw-text-sm tw-font-normal tw-text-drumeo">Content Type</h3>
+                <p class="tw-text-sm tw-font-bold">This Is The Lesson Title</p>
+            </div>
+            <!-- Optional Content -->
+            <div class="tw-uppercase tw-text-xs tw-flex">
+               <p class="tw-pr-3 lg:tw-px-4">All</p>
+               <p class="tw-pr-3 lg:tw-px-4">20 Lessons</p> 
+               <p class="lg:tw-px-4">May 16/24</p> 
+            </div>
+        </div>
+        <!-- Main CTA-->
+        <div class="tw-flex tw-items-center tw-text-gray-400">
+            <i class="fa fa-plus tw-text-4xl tw-px-4 tw-hidden lg:tw-block" aria-hidden="true"></i>
+            <i class="fas fa-play-circle tw-text-4xl tw-px-4"></i>
+        </div>
+    </div>
+```

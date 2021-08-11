@@ -91,6 +91,7 @@ module.exports = {
                     children: [
                         '/stylesora/components/buttons',
                         '/stylesora/components/tooltips',
+                        ['/stylesora/components/lists', 'Content Lists'],
                         ['/stylesora/components/icons', 'Icons'],
                         '/stylesora/components/forms',
                         '/stylesora/components/modals',
@@ -98,7 +99,6 @@ module.exports = {
                         '/stylesora/components/cards',
                         '/stylesora/components/search',
                         '/stylesora/components/tags',
-                        '/stylesora/components/lists',
                     ]
                 },
                 {

@@ -187,6 +187,31 @@ The `tw-btn-small` decreases height and font-size of buttons.
 </a>
 ```
 
+##### Large Buttons
+<br>
+
+The `tw-btn-large` increases height and font-size of buttons.
+
+<br>
+
+<a href="#" class="tw-btn-primary tw-btn-large tw-bg-drumeo">
+    <span>Drumeo</span>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-large tw-text-pianote">
+    <i class="fa fa-play tw-pr-3 tw-text-xl" aria-hidden="true"></i>
+    <span>Pianote</span>
+</a>
+
+```html
+<a href="#" class="tw-btn-primary tw-btn-large tw-bg-drumeo">
+    <span>Drumeo</span>
+</a>
+<a href="#" class="tw-btn-secondary tw-btn-large tw-text-pianote">
+    <i class="fa fa-play tw-pr-3 tw-text-xl" aria-hidden="true"></i>
+    <span>Pianote</span>
+</a>
+```
+
 ##### Circle Buttons
 <br>
 
@@ -194,6 +219,9 @@ While it's almost possible to get a circular button by adjusting padding values 
 
 <br>
 
+<a href="#" class="tw-btn-secondary tw-text-recordeo tw-btn-circle tw-btn-large">
+    <i class="fa fa-play" aria-hidden="true"></i>
+</a>
 <a href="#" class="tw-btn-primary tw-btn-circle tw-bg-drumeo">
     <i class="fa fa-database" aria-hidden="true"></i>
 </a>
@@ -211,6 +239,9 @@ While it's almost possible to get a circular button by adjusting padding values 
 </a>
 
 ```html
+<a href="#" class="tw-btn-secondary tw-text-recordeo tw-btn-circle tw-btn-large">
+    <i class="fa fa-play" aria-hidden="true"></i>
+</a>
 <a href="#" class="tw-btn-primary tw-btn-circle tw-bg-drumeo">
     <i class="fa fa-database" aria-hidden="true"></i>
 </a>

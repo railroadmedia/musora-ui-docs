@@ -8704,10 +8704,10 @@ stylehacks@^5.0.1:
     browserslist "^4.16.0"
     postcss-selector-parser "^6.0.4"
 
-stylesora@^1.0.57:
-  version "1.0.57"
-  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.57.tgz#6270267a84bcd1bff25b6f423e60fc1dbd150484"
-  integrity sha512-+abVl89yKRVba2yKNn8uE6ajDWQA2q/k19K1s6Ye0yDGWlwlOGHez/VSZKuKj4Y3B1pqD7I0wjWbIITrmle0bA==
+stylesora@^1.0.61:
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/stylesora/-/stylesora-1.0.61.tgz#d71f67e6426a71a96f1065a30bcd7666549c7dcb"
+  integrity sha512-eBmKQg45ki4HhBZcGtPDKP56M5cQEigFzgF+NWtDR9yMI4vIE7OqkCn4XM9fXhrASBtyCYDijKBSXO7dyJntdA==
   dependencies:
     cssnano "^5.0.6"
 
