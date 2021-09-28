@@ -10,7 +10,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="name" class="tw-label">Name:</label>
+    <label for="name" class="tw-label">Name</label>
     <div class="tw-input-wrapper">
         <input  type="text" 
                 aria-required="true"
@@ -25,7 +25,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="email" class="tw-label">Email:</label>
+    <label for="email" class="tw-label">Email</label>
     <div class="tw-input-wrapper">
         <input  type="email" 
                 aria-required="true"
@@ -40,7 +40,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="number" class="tw-label">Number:</label>
+    <label for="number" class="tw-label">Number</label>
     <div class="tw-input-wrapper">
         <input  type="number" 
                 aria-required="true"
@@ -56,7 +56,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="password" class="tw-label">Password:</label>
+    <label for="password" class="tw-label">Password</label>
     <div class="tw-input-wrapper">
         <input  type="password" 
                 aria-required="true"
@@ -72,7 +72,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="tel" class="tw-label">Telephone:</label>
+    <label for="tel" class="tw-label">Telephone</label>
     <div class="tw-input-wrapper">
         <input  type="tel" 
                 aria-required="true"
@@ -88,7 +88,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="name" class="tw-label">Message:</label>
+    <label for="name" class="tw-label">Message</label>
     <div class="tw-input-wrapper">
         <textarea type="text" 
                 name="name" 
@@ -127,7 +127,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="name" class="tw-label">Select:</label>
+    <label for="name" class="tw-label">Select</label>
     <div class="tw-input-wrapper">
         <select type="text" 
                 name="name" 
