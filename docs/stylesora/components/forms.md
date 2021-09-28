@@ -132,6 +132,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
         <select type="text" 
                 name="name" 
                 id="name" 
+                class="focus:tw-border-drumeo"
                 placeholder="Jane Doe">
             <option value="" selected>Choose Car</option>
             <option value="volvo">Volvo</option>
@@ -158,6 +159,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
                 aria-haspopup="listbox" 
                 aria-expanded="true" 
                 aria-labelledby="listbox-label"
+                class="focus:tw-border-drumeo"
         >
             <span>
                 Select Links
@@ -208,6 +210,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
                 aria-haspopup="listbox" 
                 aria-expanded="true" 
                 aria-labelledby="listbox-label"
+                class="focus:tw-border-drumeo"
         >
             <span x-text="option || 'Select One Item' "></span>
             <span class="tw-input-icon">
@@ -268,13 +271,16 @@ Forms are widely used to collect user input and data. Forms should be concise an
 
 <!-- Checkbox Dropdown -->
 <div class="tw-input-field" x-data="{ dropdownMenu: false, options: [] }" >
-    <label id="multi-listbox-label" class="tw-label">Multi Select</label>
+    <label id="multi-listbox-label" for="multi-drop-trigger" class="tw-label">Multi Select</label>
     <div class="tw-input-wrapper" x-on:click.away = "dropdownMenu = false">
         <button x-on:click="dropdownMenu = ! dropdownMenu"
+                x-ref="multiDropdownTrigger"
                 type="button"  
+                id="multi-drop-trigger"
                 aria-haspopup="multi-listbox" 
                 aria-expanded="true" 
                 aria-labelledby="multi-listbox-label"
+                class="focus:tw-border-drumeo"
         >
             <span x-text="options.length ? options : 'Select Multiple Options' "></span>
             <span class="tw-input-icon">
@@ -294,8 +300,11 @@ Forms are widely used to collect user input and data. Forms should be concise an
             aria-activedescendant="multi-listbox-option-3">
             <li id="multi-listbox-option-1" 
                 role="option">
-                <input type="checkbox" id="multi-option-1" value="Option 1" x-model="options">
-                <label for="multi-option-1" class="tw-option">
+                <input  type="checkbox" 
+                        id="multi-option-1" 
+                        value="Option 1"                 
+                        x-model="options">
+                <label for="multi-option-1" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
                     <span>Option 1</span>
                     <span class="tw-input-icon" aria-hidden="true">
                         <svg class="" fill="currentColor" viewBox="0 0 12 12">
@@ -307,7 +316,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
             <li id="multi-listbox-option-2" 
                 role="option">
                 <input type="checkbox" id="multi-option-2" value="Option 2" x-model="options">
-                <label for="multi-option-2" class="tw-option" x-on:click="">
+                <label for="multi-option-2" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
                     <span>Option 2</span>
                     <span class="tw-input-icon" aria-hidden="true">
                         <svg class="" fill="currentColor" viewBox="0 0 12 12">
@@ -319,7 +328,7 @@ Forms are widely used to collect user input and data. Forms should be concise an
             <li id="multi-listbox-option-3" 
                 role="option">
                 <input type="checkbox" id="multi-option-3" value="Option 3" x-model="options">
-                <label for="multi-option-3" class="tw-option" x-on:click="">
+                <label for="multi-option-3" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
                     <span>Option 3</span>
                     <span class="tw-input-icon" aria-hidden="true">
                         <svg class="" fill="currentColor" viewBox="0 0 12 12">
@@ -374,11 +383,11 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="email" class="tw-label">Email</label>
+    <label for="email2" class="tw-label">Email</label>
     <div class="tw-input-wrapper">
         <input  type="text" 
                 name="email" 
-                id="email" 
+                id="email2" 
                 aria-required="true"
                 placeholder="you@example.com" 
                 aria-invalid="true" 
@@ -398,11 +407,11 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field">
-    <label for="email" class="tw-label">Email</label>
+    <label for="email3" class="tw-label">Email</label>
     <div class="tw-input-wrapper">
         <input type="text" 
                 name="email" 
-                id="email" 
+                id="email3" 
                 placeholder="you@example.com" 
                 aria-invalid="false" 
                 aria-required="true"
@@ -422,11 +431,11 @@ Forms are widely used to collect user input and data. Forms should be concise an
 <br>
 
 <div class="tw-input-field" disabled>
-    <label for="name" class="tw-label">Name</label>
+    <label for="name2" class="tw-label">Name</label>
     <div class="tw-input-wrapper">
         <input type="text" 
                 name="name" 
-                id="name" 
+                id="name2" 
                 placeholder="Jane Doe">
     </div>
 </div>
