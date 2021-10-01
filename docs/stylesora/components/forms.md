@@ -331,6 +331,56 @@ Forms are widely used to collect user input and data. Forms should be concise an
     </div>
 </div>
 
+```html
+<div class="tw-input-field" x-data="{dropdownMenu: false}" >
+    <label id="listbox-label" class="tw-label">Links</label>
+    <div class="tw-input-wrapper" x-on:click.away = "dropdownMenu = false">
+        <button x-on:click="dropdownMenu = ! dropdownMenu"
+                type="button"  
+                aria-haspopup="listbox" 
+                aria-expanded="true" 
+                aria-labelledby="listbox-label"
+                class="focus:tw-border-drumeo"
+        >
+            <span>
+                Select Links
+            </span>
+            <span class="tw-input-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </span>
+        </button>
+        <ul x-show="dropdownMenu" 
+            class="tw-dropdown" 
+            tabindex="-1" 
+            x-cloak
+            role="listbox" 
+            aria-labelledby="listbox-label" 
+            aria-activedescendant="listbox-option-3">
+            <li id="listbox-option-1" 
+                role="option">
+                <a href="#">
+                    Link 1
+                </a>
+            </li>
+            <li id="listbox-option-2" 
+                role="option">
+                <a href="#">
+                    Link 2
+                </a>
+            </li>
+            <li id="listbox-option-3" 
+                role="option">
+                <a href="#">
+                    Link 3
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+```
+
 ###### Radio Dropdown
 <br>
 
@@ -398,6 +448,71 @@ Forms are widely used to collect user input and data. Forms should be concise an
     </div>
 </div>
 
+```html
+<div class="tw-input-field" x-data="{dropdownMenu: false, option: ''}" >
+    <label id="listbox-label" class="tw-label">Single Select</label>
+    <div class="tw-input-wrapper" x-on:click.away = "dropdownMenu = false">
+        <button x-on:click="dropdownMenu = ! dropdownMenu"
+                type="button"  
+                aria-haspopup="listbox" 
+                aria-expanded="true" 
+                aria-labelledby="listbox-label"
+                class="focus:tw-border-drumeo"
+        >
+            <span x-text="option || 'Select One Item' "></span>
+            <span class="tw-input-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </span>
+        </button>
+        <ul x-show="dropdownMenu" 
+            class="tw-dropdown" 
+            tabindex="-1" 
+            x-cloak
+            role="listbox" 
+            aria-labelledby="listbox-label" 
+            aria-activedescendant="listbox-option-3">
+            <li id="listbox-option-1" 
+                role="option">
+                <input type="radio" id="option-1" name="option" value="Option 1" x-model="option">
+                <label for="option-1" class="tw-option">
+                    <span>Option 1</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+                        </svg>
+                    </span>
+                </label>
+            </li>
+            <li id="listbox-option-2" 
+                role="option">
+                <input type="radio" id="option-2" name="option" value="Option 2" x-model="option">
+                <label for="option-2" class="tw-option">
+                    <span>Option 2</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+                        </svg>
+                    </span>
+                </label>
+            </li>
+            <li id="listbox-option-3" 
+                role="option">
+                <input type="radio" id="option-3" name="option" value="Option 3" x-model="option">
+                <label for="option-3" class="tw-option">
+                    <span>Option 3</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+                        </svg>
+                    </span>
+                </label>
+            </li>
+        </ul>
+    </div>
+</div>
+```
 ###### Checkbox Dropdown
 <br>
 
@@ -473,6 +588,80 @@ Forms are widely used to collect user input and data. Forms should be concise an
     </div>
 </div>
 
+```html
+<!-- Checkbox Dropdown -->
+<div class="tw-input-field" x-data="{ dropdownMenu: false, options: [] }" >
+    <label id="multi-listbox-label" for="multi-drop-trigger" class="tw-label">Multi Select</label>
+    <div class="tw-input-wrapper" x-on:click.away = "dropdownMenu = false">
+        <button x-on:click="dropdownMenu = ! dropdownMenu"
+                x-ref="multiDropdownTrigger"
+                type="button"  
+                id="multi-drop-trigger"
+                aria-haspopup="multi-listbox" 
+                aria-expanded="true" 
+                aria-labelledby="multi-listbox-label"
+                class="focus:tw-border-drumeo"
+        >
+            <span x-text="options.length ? options : 'Select Multiple Options' "></span>
+            <span class="tw-input-icon">
+                <!-- Heroicon name: solid/chevron-down -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </span>
+        </button>
+        <!-- Dropdown -->
+        <ul x-show="dropdownMenu" 
+            class="tw-dropdown" 
+            tabindex="-1" 
+            x-cloak
+            role="multi-listbox" 
+            aria-labelledby="multi-listbox-label" 
+            aria-activedescendant="multi-listbox-option-3">
+            <li id="multi-listbox-option-1" 
+                role="option">
+                <input  type="checkbox" 
+                        id="multi-option-1" 
+                        value="Option 1"                 
+                        x-model="options">
+                <label for="multi-option-1" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
+                    <span>Option 1</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+                        </svg>
+                    </span>
+                </label>
+            </li>
+            <li id="multi-listbox-option-2" 
+                role="option">
+                <input type="checkbox" id="multi-option-2" value="Option 2" x-model="options">
+                <label for="multi-option-2" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
+                    <span>Option 2</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z" />
+                        </svg>
+                    </span>
+                </label>
+            </li>
+            <li id="multi-listbox-option-3" 
+                role="option">
+                <input type="checkbox" id="multi-option-3" value="Option 3" x-model="options">
+                <label for="multi-option-3" class="tw-option" x-on:click="$refs.multiDropdownTrigger.focus()">
+                    <span>Option 3</span>
+                    <span class="tw-input-icon" aria-hidden="true">
+                        <svg class="" fill="currentColor" viewBox="0 0 12 12">
+                            <path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z"/>
+                        </svg>
+                    </span>
+                </label>
+            </li>
+        </ul>
+    </div>
+</div>
+```
+
 <br><hr>
 #### Toggles
 <br>
@@ -543,54 +732,6 @@ Forms are widely used to collect user input and data. Forms should be concise an
 
 #### Input Field States
 
-###### Error State
-<br>
-
-<div class="tw-input-field">
-    <label for="email2" class="tw-label">Email</label>
-    <div class="tw-input-wrapper">
-        <input  type="text" 
-                name="email" 
-                id="email2" 
-                aria-required="true"
-                placeholder="you@example.com" 
-                aria-invalid="true" 
-                aria-describedby="email-error"
-        >
-        <div class="tw-input-icon">
-            <!-- Heroicon name: solid/exclamation-circle -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-            </svg>
-        </div>
-        <p class="tw-input-message" id="email-error">Your password must be less than 4 characters.</p>
-    </div>
-</div>
-
-###### Success State
-<br>
-
-<div class="tw-input-field">
-    <label for="email3" class="tw-label">Email</label>
-    <div class="tw-input-wrapper">
-        <input type="text" 
-                name="email" 
-                id="email3" 
-                placeholder="you@example.com" 
-                aria-invalid="false" 
-                aria-required="true"
-                aria-describedby="email-error"
-        >
-        <div class="tw-input-icon">
-            <!-- Heroicon name: solid/exclamation-circle -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-            </svg>
-        </div>
-        <p class="tw-input-message" id="email-error">Success.</p>
-    </div>
-</div>
-
 ###### Disabled State
 <br>
 
@@ -615,6 +756,55 @@ Forms are widely used to collect user input and data. Forms should be concise an
     </div>
 </div>
 ```
+###### Error State
+<br>
+
+<div class="tw-input-field">
+    <label for="email2" class="tw-label">Email</label>
+    <div class="tw-input-wrapper">
+        <input  type="text" 
+                name="email" 
+                id="email2" 
+                class="tw-border-red-500 tw-bg-red-50"
+                aria-required="true"
+                placeholder="you@example.com" 
+                aria-invalid="true" 
+                aria-describedby="email-error"
+        >
+        <div class="tw-input-icon">
+            <!-- Heroicon name: solid/exclamation-circle -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="tw-text-red-500" aria-hidden="true">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+            </svg>
+        </div>
+        <p class="tw-input-message" id="email-error">Your password must be less than 4 characters.</p>
+    </div>
+</div>
+
+###### Success State
+<br>
+
+<div class="tw-input-field">
+    <label for="email3" class="tw-label">Email</label>
+    <div class="tw-input-wrapper">
+        <input type="text" 
+                name="email" 
+                id="email3" 
+                class="tw-border-green-500 tw-bg-green-50"
+                placeholder="you@example.com" 
+                aria-invalid="false" 
+                aria-required="true"
+                aria-describedby="email-error"
+        >
+        <div class="tw-input-icon">
+            <!-- Heroicon name: solid/exclamation-circle -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="tw-text-green-500">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+        </div>
+        <p class="tw-input-message" id="email-error">Success.</p>
+    </div>
+</div>
 
 <br>
 <hr>
