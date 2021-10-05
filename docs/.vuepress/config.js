@@ -92,13 +92,13 @@ module.exports = {
                         '/stylesora/components/buttons',
                         '/stylesora/components/tooltips',
                         ['/stylesora/components/lists', 'Content Lists'],
-                        ['/stylesora/components/icons', 'Icons'],
                         '/stylesora/components/forms',
                         '/stylesora/components/modals',
                         '/stylesora/components/breadcrumbs',
                         '/stylesora/components/cards',
                         '/stylesora/components/search',
                         '/stylesora/components/tags',
+                        ['/stylesora/components/icons', 'Icons'],
                     ]
                 },
                 {
