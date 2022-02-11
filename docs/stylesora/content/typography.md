@@ -110,7 +110,7 @@ The letter-spacing and size may be adjusted to match the design.
     <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl - 1.875rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
-    <h2 class="tw-leading-none tw-fluid-text-3xl-2xl">Two to Heading Three</h2>
+    <h2 class="tw-leading-none tw-fluid-text-3xl-2xl">Heading Two to Heading Three</h2>
     <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-fluid-text-3xl-2xl - 1.875rem/1.5rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
@@ -141,11 +141,11 @@ The letter-spacing and size may be adjusted to match the design.
     <p class="tw-leading-none tw-fluid-text-base-xs">Paragraph to Extra Small</p>
     <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-fluid-text-base-xs - 1rem/0.75rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-leading-none tw-text-sm">Paragraph Small</p>
     <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-leading-none tw-fluid-text-sm-xs">Paragraph Small to Extra Small</p>
     <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem/0.75rem</div>
 </div>
