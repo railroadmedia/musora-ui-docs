@@ -93,73 +93,73 @@ The letter-spacing and size may be adjusted to match the design.
 #### Type Scale & Fluid Typography
 <br>
 
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h1 class="tw-leading-none tw-text-5xl">Large Heading</h1>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-5xl - 3rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-5xl - 3rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
-    <h1 class="tw-leading-none tw-text-5xl">Large Heading to Extra Small</h1>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-fluid-text-5xl-xs - 3rem/0.75rem</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
+    <h1 class="tw-leading-none tw-fluid-text-5xl-xs">Large to Extra Small</h1>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-fluid-text-5xl-xs - 3rem/0.75rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h1 class="tw-leading-none tw-text-4xl">Heading One</h1>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl - 2.25rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-4xl - 2.25rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h2 class="tw-leading-none tw-text-3xl">Heading Two</h2>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl - 1.875rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl - 1.875rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
-    <h2 class="tw-leading-none tw-fluid-text-3xl-2xl">Heading Two to Heading Three</h2>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-fluid-text-3xl-2xl - 1.875rem/1.5rem</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
+    <h2 class="tw-leading-none tw-fluid-text-3xl-2xl">Two to Heading Three</h2>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-fluid-text-3xl-2xl - 1.875rem/1.5rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h3 class="tw-leading-none tw-text-2xl">Heading Three</h3>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl - 1.5rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl - 1.5rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h3 class="tw-leading-none tw-fluid-text-2xl-base">Heading Three to Paragraph</h3>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-fluid-text-2xl-base - 1.5rem/1rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-fluid-text-2xl-base - 1.5rem/1rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h4 class="tw-leading-none tw-text-xl">Heading Four</h4>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h4</i>tw-text-xl - 1.25rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h4</i>tw-text-xl - 1.25rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h5 class="tw-leading-none tw-text-lg">Heading Five</h5>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h5</i>tw-text-lg - 1.125rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h5</i>tw-text-lg - 1.125rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h6 class="tw-leading-none tw-text-base">Heading Six</h6>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h6</i>tw-text-base - 1rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h6</i>tw-text-base - 1rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-leading-none tw-text-base">Paragraphs</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-base - 1rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-base - 1rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-leading-none tw-fluid-text-base-xs">Paragraph to Extra Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-fluid-text-base-xs - 1rem/0.75rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-fluid-text-base-xs - 1rem/0.75rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-sm">Paragraph Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-fluid-text-sm-xs">Paragraph Small to Extra Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem/0.75rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem/0.75rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-leading-none tw-text-xs">Paragraph Extra Small</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-xs - 0.75rem</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-xs - 0.75rem</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <h3 class="tw-title tw-font-normal tw-leading-none">Title</h3>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl tw-font-normal</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl tw-font-normal</div>
 </div>
-<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex tw-flex-col lg:tw-flex-row">
     <p class="tw-font-roboto-condensed tw-font-bold tw-uppercase tw-leading-none">Buttons</p>
-    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-font-roboto-condensed tw-font-bold</div>
+    <div class="tw-mt-4 lg:tw-mt-0 lg:tw-pl-6 lg:tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-font-roboto-condensed tw-font-bold</div>
 </div>
 <br>
 
