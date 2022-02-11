@@ -90,12 +90,16 @@ The letter-spacing and size may be adjusted to match the design.
 ```
 <br><hr>
 
-#### Type Scale
+#### Type Scale & Fluid Typography
 <br>
 
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h1 class="tw-leading-none tw-text-5xl">Large Heading</h1>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-text-5xl - 3rem</div>
+</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <h1 class="tw-leading-none tw-text-5xl">Large Heading to Extra Small</h1>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h1</i>tw-fluid-text-5xl-xs - 3rem/0.75rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h1 class="tw-leading-none tw-text-4xl">Heading One</h1>
@@ -106,8 +110,16 @@ The letter-spacing and size may be adjusted to match the design.
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-text-3xl - 1.875rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <h2 class="tw-leading-none tw-fluid-text-3xl-2xl">Heading Two to Heading Three</h2>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h2</i>tw-fluid-text-3xl-2xl - 1.875rem/1.5rem</div>
+</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h3 class="tw-leading-none tw-text-2xl">Heading Three</h3>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-text-2xl - 1.5rem</div>
+</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <h3 class="tw-leading-none tw-fluid-text-2xl-base">Heading Three to Paragraph</h3>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">h3</i>tw-fluid-text-2xl-base - 1.5rem/1rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <h4 class="tw-leading-none tw-text-xl">Heading Four</h4>
@@ -125,9 +137,17 @@ The letter-spacing and size may be adjusted to match the design.
     <p class="tw-leading-none tw-text-base">Paragraphs</p>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-base - 1rem</div>
 </div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <p class="tw-leading-none tw-fluid-text-base-xs">Paragraph to Extra Small</p>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-fluid-text-base-xs - 1rem/0.75rem</div>
+</div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-sm">Paragraph Small</p>
     <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem</div>
+</div>
+<div class="tw-py-4 tw-border-solid tw-border-0 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
+    <p class="tw-leading-none tw-fluid-text-sm-xs">Paragraph Small to Extra Small</p>
+    <div class="tw-pl-6 tw-ml-auto tw-items-center tw-inline-flex tw-text-sm tw-text-gray-500"><i class="tw-pr-2">p</i>tw-text-sm - 0.875rem/0.75rem</div>
 </div>
 <div class="tw-py-4 tw-border-solid tw-border-0 tw-border-b tw-border-gray-200 tw-flex">
     <p class="tw-leading-none tw-text-xs">Paragraph Extra Small</p>
